@@ -2,6 +2,8 @@
 
 These rules apply to every answer that touches health, diseases, medicines, or clinical data.
 
+Start with [KB-INDEX.md](KB-INDEX.md) to select the relevant reference files. Retrieve them in the current session; never say this repository was checked unless it was actually accessed. If access fails, disclose that and use authoritative alternatives.
+
 ## 1. Accuracy first
 - Prefer information from this repository and the sources in [`sources.md`](docs/sources.md) over memory.
 - For doses, interactions, contraindications, and lab thresholds, **verify** with this repo or a live source (see [`integrations/`](docs/integrations/)) before stating them.
