@@ -45,8 +45,8 @@ Do not upload patient-identifiable data to this public repository.
 
 - [AGENTS.md](AGENTS.md) — medical-answering rules.
 - [KB-INDEX.md](KB-INDEX.md) — topic-to-file directory.
-- [sources.md](sources.md) — evidence hierarchy.
-- [integrations/](integrations/) — optional live-source integrations and APIs.
+- [docs/sources.md](docs/sources.md) — evidence hierarchy.
+- [docs/integrations/](docs/integrations/) — optional live-source integrations and APIs.
 
 For automated workflows, use the GitHub connector's repository file retrieval or the public GitHub contents API: `https://api.github.com/repos/faheemkhaskheli9/Medical-Knowledge-Base/contents/AGENTS.md` (omit `ref` to follow the default branch). The public endpoint is read-only and may be rate-limited; authenticated access is preferable for reliable repeated reads.
 
