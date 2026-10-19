@@ -11,6 +11,10 @@ Repository: https://github.com/faheemkhaskheli9/Medical-Knowledge-Base
 
 **What is not guaranteed:** Repository files do not automatically become ChatGPT's system instructions. Memory is not a live sync or search index. ChatGPT cannot promise to fetch this repository in every conversation, especially when browsing/connectors are unavailable, disabled, or the conversation is outside the configured Project.
 
+## Shared knowledge bases
+
+For interdisciplinary work, consult the [central ChatGPT knowledge-base router](https://github.com/faheemkhaskheli9/AI-Knowledge-Base/blob/main/CHATGPT-KB-ROUTER.md). It links the owner's [AI](https://github.com/faheemkhaskheli9/AI-Knowledge-Base), [software engineering](https://github.com/faheemkhaskheli9/Software-Engineering-KnowledgeBase), and [cybersecurity](https://github.com/faheemkhaskheli9/Cyber-Security-Knowledge-Base) reference repositories, plus an optional private Personal KB. Healthcare AI design may require all four public KBs, but this medical KB and **current official clinical evidence** govern clinical safety. Only consult private records when explicitly relevant and authorized. The shared router contains general-purpose ChatGPT Project instructions; the instructions below remain the medical-specific option.
+
 ## Recommended setup
 
 1. In ChatGPT, open **Settings → Plugins**, and connect or enable **GitHub** with access to this repository. The repository is currently public, so web retrieval may also work.
