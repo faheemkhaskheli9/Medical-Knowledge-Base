@@ -4,6 +4,10 @@ A curated, source-cited medical reference designed to be loaded as context by AI
 
 > **Disclaimer:** This repository is for informational and educational use. It is not a substitute for professional medical advice, diagnosis, or treatment. Doses and recommendations vary by country, formulary, and patient; always verify against current official labeling and local guidelines.
 
+## ChatGPT integration
+
+For consistent use in ChatGPT, see **[CHATGPT.md](CHATGPT.md)** for setup and Project instructions, and **[KB-INDEX.md](KB-INDEX.md)** for a topic-to-file retrieval map. These files improve discoverability but do not cause automatic background synchronization or guarantee retrieval when ChatGPT lacks repository access.
+
 ## How an assistant should use this repo
 
 1. Read [`AGENTS.md`](AGENTS.md) first — it defines the answering rules.
