@@ -64,9 +64,14 @@ nav:
   - Conditions:
       - Hypertension: conditions/hypertension.md
       - Type 2 diabetes: conditions/type-2-diabetes.md
+  - Infections & vaccines:
+      - Antimicrobial stewardship: infections/antimicrobial-stewardship.md
+      - Vaccination: vaccination/vaccination.md
   - Medicines:
       - High-alert medications: medicines/high-alert-medications.md
       - Look-alike / sound-alike: medicines/look-alike-sound-alike.md
+      - Drug names by region: medicines/drug-names-by-region.md
+      - Herb & food interactions: medicines/herb-drug-interactions.md
       - Monographs:
           - Ibuprofen: medicines/monographs/ibuprofen.md
           - Metformin: medicines/monographs/metformin.md
@@ -77,6 +82,9 @@ nav:
       - Allergy & cross-reactivity: allergy/cross-reactivity.md
       - Pharmacogenomics: pharmacogenomics/gene-drug-pairs.md
       - Poisoning & antidotes: toxicology/antidotes.md
+  - Emergencies:
+      - First aid: first-aid/first-aid.md
+      - Mental health crisis: mental-health/crisis-support.md
   - Special populations:
       - Pregnancy & lactation: special-populations/pregnancy-lactation.md
       - Pediatrics: special-populations/pediatrics.md
@@ -86,9 +94,13 @@ nav:
       - Lab reference ranges: clinical-reference/lab-reference-ranges.md
       - Formulas & conversions: clinical-reference/formulas.md
       - Clinical scores: clinical-reference/clinical-scores.md
+      - Medical coding: clinical-reference/medical-coding.md
+  - Regional:
+      - Pakistan: regional/pakistan.md
       - Unsafe abbreviations: clinical-reference/unsafe-abbreviations.md
   - Integrations:
       - MCP servers: integrations/mcp-servers.md
       - Public APIs: integrations/public-apis.md
       - Plugins & skills: integrations/plugins-and-skills.md
   - Sources: sources.md
+  - Guideline changes: guideline-changes.md

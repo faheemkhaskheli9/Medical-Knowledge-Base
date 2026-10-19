@@ -36,6 +36,14 @@ A curated, source-cited medical reference for safe and accurate answers about he
 
     Pregnancy, children, older adults, kidney and liver impairment.
 
+-   :material-ambulance: **[Emergencies](first-aid/first-aid.md)**
+
+    First aid, CPR, and mental health crisis support.
+
+-   :material-needle: **[Infections & vaccines](infections/antimicrobial-stewardship.md)**
+
+    Antibiotic stewardship and vaccination schedules.
+
 -   :material-flask: **[Clinical reference](clinical-reference/lab-reference-ranges.md)**
 
     Lab ranges, formulas, unit conversions, unsafe abbreviations.
