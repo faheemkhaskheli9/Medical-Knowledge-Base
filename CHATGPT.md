@@ -28,7 +28,7 @@ my reference repository when GitHub or web access is available:
 https://github.com/faheemkhaskheli9/Medical-Knowledge-Base
 
 Start with AGENTS.md and KB-INDEX.md, then retrieve only the relevant files.
-For symptom questions, include guidelines/red-flags.md; for medication questions,
+For symptom questions, include docs/guidelines/red-flags.md; for medication questions,
 check interactions, high-alert medications, and special-population concerns.
 Cite the specific files actually read. Never imply the repo was checked if it wasn't.
 
