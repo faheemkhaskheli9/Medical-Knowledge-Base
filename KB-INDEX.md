@@ -14,6 +14,16 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Ibuprofen | [docs/medicines/monographs/ibuprofen.md](docs/medicines/monographs/ibuprofen.md) |
 | Metformin | [docs/medicines/monographs/metformin.md](docs/medicines/monographs/metformin.md) |
 | Warfarin | [docs/medicines/monographs/warfarin.md](docs/medicines/monographs/warfarin.md) |
+| Amoxicillin, co-amoxiclav | [docs/medicines/monographs/amoxicillin.md](docs/medicines/monographs/amoxicillin.md) |
+| Atorvastatin, statins | [docs/medicines/monographs/atorvastatin.md](docs/medicines/monographs/atorvastatin.md) |
+| Amlodipine | [docs/medicines/monographs/amlodipine.md](docs/medicines/monographs/amlodipine.md) |
+| Lisinopril, ramipril, enalapril (ACE inhibitors) | [docs/medicines/monographs/ace-inhibitors.md](docs/medicines/monographs/ace-inhibitors.md) |
+| Omeprazole, PPIs | [docs/medicines/monographs/omeprazole.md](docs/medicines/monographs/omeprazole.md) |
+| Salbutamol/albuterol, asthma relievers | [docs/medicines/monographs/salbutamol.md](docs/medicines/monographs/salbutamol.md) |
+| Apixaban, DOACs | [docs/medicines/monographs/apixaban.md](docs/medicines/monographs/apixaban.md) |
+| Sertraline, SSRIs | [docs/medicines/monographs/sertraline.md](docs/medicines/monographs/sertraline.md) |
+| Levothyroxine | [docs/medicines/monographs/levothyroxine.md](docs/medicines/monographs/levothyroxine.md) |
+| Insulin types | [docs/medicines/monographs/insulin.md](docs/medicines/monographs/insulin.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -50,4 +60,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has four drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 14 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.

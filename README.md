@@ -35,7 +35,7 @@ For consistent use in ChatGPT, see **[CHATGPT.md](CHATGPT.md)** for setup and Pr
 ## Roadmap — what else to include
 
 - [x] **Diseases/conditions** — one file per condition: definition, diagnostic criteria, first-line treatment, red flags, guideline source (e.g. hypertension, T2DM, asthma, COPD, CAP, UTI, depression).
-- [ ] **More monographs** — top 200 prescribed drugs, antibiotics, anticoagulants, insulin types, opioids.
+- [ ] **More monographs** — 14 done; continue with top 200 prescribed drugs (opioids, antiepileptics, antipsychotics, antibiotics, steroids).
 - [x] **Antimicrobial stewardship** — empiric therapy by infection site, local resistance caveats.
 - [x] **Vaccination schedules** — WHO/CDC/national schedules, catch-up rules, contraindications.
 - [x] **Toxicology & antidotes** — overdose management, antidote table, poison center contacts.

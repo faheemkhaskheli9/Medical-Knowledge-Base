@@ -73,9 +73,19 @@ nav:
       - Drug names by region: medicines/drug-names-by-region.md
       - Herb & food interactions: medicines/herb-drug-interactions.md
       - Monographs:
+          - ACE inhibitors: medicines/monographs/ace-inhibitors.md
+          - Amlodipine: medicines/monographs/amlodipine.md
+          - Amoxicillin (± clavulanate): medicines/monographs/amoxicillin.md
+          - Apixaban: medicines/monographs/apixaban.md
+          - Atorvastatin: medicines/monographs/atorvastatin.md
           - Ibuprofen: medicines/monographs/ibuprofen.md
+          - Insulin types: medicines/monographs/insulin.md
+          - Levothyroxine: medicines/monographs/levothyroxine.md
           - Metformin: medicines/monographs/metformin.md
+          - Omeprazole (PPIs): medicines/monographs/omeprazole.md
           - Paracetamol: medicines/monographs/paracetamol.md
+          - Salbutamol (albuterol): medicines/monographs/salbutamol.md
+          - Sertraline: medicines/monographs/sertraline.md
           - Warfarin: medicines/monographs/warfarin.md
   - Safety:
       - Major interactions: interactions/major-interactions.md

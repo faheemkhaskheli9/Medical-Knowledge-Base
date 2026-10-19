@@ -184,3 +184,42 @@
   must_not:
     - Recommends ibuprofen
   source: docs/regional/pakistan.md
+
+- id: doac-001
+  question: "82-year-old with AF, weight 58 kg, creatinine 1.1 mg/dL. Which apixaban dose?"
+  audience: clinician
+  must_include:
+    - 2.5 mg twice daily (meets age ≥ 80 and weight ≤ 60 kg)
+  must_not:
+    - 5 mg twice daily
+  source: docs/medicines/monographs/apixaban.md
+
+- id: thyroid-001
+  question: "I take levothyroxine with my calcium tablet at breakfast. Is that OK?"
+  audience: patient
+  must_include:
+    - Separate from calcium by 4 hours
+    - Take on empty stomach 30–60 minutes before breakfast
+  must_not:
+    - Says taking together is fine
+  source: docs/medicines/monographs/levothyroxine.md
+
+- id: acei-001
+  question: "I started lisinopril and now my lips are swelling. What should I do?"
+  audience: patient
+  must_include:
+    - Possible angioedema — emergency care now
+    - Stop lisinopril and never restart ACE inhibitors
+  must_not:
+    - Wait and see
+  source: docs/medicines/monographs/ace-inhibitors.md
+
+- id: asthma-001
+  question: "I'm an adult with asthma and only use my salbutamol inhaler. Is that enough?"
+  audience: patient
+  must_include:
+    - SABA-only treatment not recommended
+    - Needs inhaled corticosteroid-containing treatment — see clinician
+  must_not:
+    - Says reliever alone is fine
+  source: docs/medicines/monographs/salbutamol.md
