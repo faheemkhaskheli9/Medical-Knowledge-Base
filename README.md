@@ -21,33 +21,35 @@ For consistent use in ChatGPT, see **[CHATGPT.md](CHATGPT.md)** for setup and Pr
 | [`AGENTS.md`](AGENTS.md) | Core rules: answer protocol, safety, citation, uncertainty |
 | [`guidelines/`](docs/guidelines/) | Answering protocol, emergency red flags, communication rules |
 | [`medicines/`](docs/medicines/) | Drug monograph template, monographs, high-alert medications |
-| [`interactions/`](docs/interactions/) | Clinically major drug–drug interactions |
+| [`interactions/`](docs/interactions/), [`allergy/`](docs/allergy/), [`pharmacogenomics/`](docs/pharmacogenomics/), [`toxicology/`](docs/toxicology/) | Interactions, drug allergy, gene–drug pairs, poisoning and antidotes |
 | [`special-populations/`](docs/special-populations/) | Pregnancy/lactation, pediatrics, older adults, renal and hepatic impairment |
 | [`clinical-reference/`](docs/clinical-reference/) | Lab reference ranges, clinical formulas, unit conversions, unsafe abbreviations |
 | [`integrations/`](docs/integrations/) | Medical MCP servers, plugins, skills, and public APIs |
 | [`mkdocs.yml`](mkdocs.yml), [`overrides/`](overrides/) | Website configuration and theme |
 | [`skills/`](skills/) | Reusable agent skill for medical question answering |
+| [`docs/conditions/`](docs/conditions/) | Condition pages (diagnosis, red flags, management) |
+| [`evals/`](evals/) | Q&A test set to measure answer accuracy |
 | [`sources.md`](docs/sources.md) | Trusted sources and evidence hierarchy |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Content standards, review rules, file template |
 
 ## Roadmap — what else to include
 
-- [ ] **Diseases/conditions** — one file per condition: definition, diagnostic criteria, first-line treatment, red flags, guideline source (e.g. hypertension, T2DM, asthma, COPD, CAP, UTI, depression).
+- [x] **Diseases/conditions** — one file per condition: definition, diagnostic criteria, first-line treatment, red flags, guideline source (e.g. hypertension, T2DM, asthma, COPD, CAP, UTI, depression).
 - [ ] **More monographs** — top 200 prescribed drugs, antibiotics, anticoagulants, insulin types, opioids.
 - [ ] **Antimicrobial stewardship** — empiric therapy by infection site, local resistance caveats.
 - [ ] **Vaccination schedules** — WHO/CDC/national schedules, catch-up rules, contraindications.
-- [ ] **Toxicology & antidotes** — overdose management, antidote table, poison center contacts.
-- [ ] **Allergy & cross-reactivity** — penicillin/cephalosporin, sulfonamide, contrast media.
-- [ ] **Pharmacogenomics** — CPIC gene–drug pairs (CYP2C19–clopidogrel, HLA-B*57:01–abacavir, TPMT/NUDT15–thiopurines).
+- [x] **Toxicology & antidotes** — overdose management, antidote table, poison center contacts.
+- [x] **Allergy & cross-reactivity** — penicillin/cephalosporin, sulfonamide, contrast media.
+- [x] **Pharmacogenomics** — CPIC gene–drug pairs (CYP2C19–clopidogrel, HLA-B*57:01–abacavir, TPMT/NUDT15–thiopurines).
 - [ ] **Brand ↔ generic mapping by country** — avoids confusing look-alike / sound-alike names.
-- [ ] **Look-alike/sound-alike (LASA) drug list** — ISMP list.
-- [ ] **Clinical scores** — CHA₂DS₂-VASc, HAS-BLED, Wells, CURB-65, qSOFA, GCS, NEWS2.
+- [x] **Look-alike/sound-alike (LASA) drug list** — ISMP list.
+- [x] **Clinical scores** — CHA₂DS₂-VASc, HAS-BLED, Wells, CURB-65, qSOFA, GCS, NEWS2.
 - [ ] **ICD-10 / SNOMED / LOINC / ATC quick maps** — coding references.
 - [ ] **First aid & emergency** — CPR/BLS steps, choking, burns, bleeding.
 - [ ] **Mental health** — crisis lines by country, safe-messaging guidelines.
 - [ ] **Nutrition & supplements** — herb–drug interactions (St John's wort, grapefruit).
 - [ ] **Regional context** — local guidelines/formularies (e.g. DRAP for Pakistan, NICE/BNF for UK, FDA for US).
-- [ ] **Evaluation set** — Q&A test cases with expected answers to check assistant accuracy over time.
+- [x] **Evaluation set** — Q&A test cases with expected answers to check assistant accuracy over time.
 - [ ] **Changelog of guideline updates** — track when a recommendation changes.
 
 ## Web view

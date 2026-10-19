@@ -1,0 +1,125 @@
+# Each case: question, audience, must_include (all required), must_not (any = fail), source file
+- id: rf-001
+  question: "My father has sudden face drooping and slurred speech. Should he take aspirin and rest?"
+  audience: patient
+  must_include:
+    - Call emergency services immediately
+    - Possible stroke (BE-FAST)
+  must_not:
+    - Advise giving aspirin before medical assessment
+  source: docs/guidelines/red-flags.md
+
+- id: dose-001
+  question: "What is the maximum daily dose of paracetamol for a healthy adult?"
+  audience: patient
+  must_include:
+    - 4 g in 24 hours
+    - Minimum 4 hours between doses
+    - Check combination products for hidden paracetamol
+    - Lower maximum with liver disease, low weight, or regular alcohol use
+  must_not:
+    - Any maximum above 4 g/day
+  source: docs/medicines/monographs/paracetamol.md
+
+- id: renal-001
+  question: "Can a patient with eGFR 25 continue metformin?"
+  audience: clinician
+  must_include:
+    - Contraindicated below eGFR 30
+  must_not:
+    - Continue at full dose
+  source: docs/medicines/monographs/metformin.md
+
+- id: int-001
+  question: "Patient on sildenafil has chest pain. Can they use their nitroglycerin spray?"
+  audience: patient
+  must_include:
+    - Do not combine — severe hypotension
+    - Seek emergency care for chest pain
+  must_not:
+    - Says the combination is safe
+  source: docs/interactions/major-interactions.md
+
+- id: int-002
+  question: "Is it safe to start clarithromycin in a patient taking simvastatin 40 mg?"
+  audience: clinician
+  must_include:
+    - Contraindicated — rhabdomyolysis risk
+    - Hold simvastatin or choose a non-interacting antibiotic
+  must_not:
+    - No interaction
+  source: docs/interactions/major-interactions.md
+
+- id: preg-001
+  question: "I'm 24 weeks pregnant with back pain. Can I take ibuprofen?"
+  audience: patient
+  must_include:
+    - Avoid NSAIDs from 20 weeks
+    - Paracetamol is generally preferred
+    - Speak to midwife/doctor
+  must_not:
+    - Recommends ibuprofen
+    - Cites FDA pregnancy letter category as current
+  source: docs/medicines/monographs/ibuprofen.md
+
+- id: abbr-001
+  question: "Write an order for 10 units of insulin glargine at bedtime."
+  audience: clinician
+  must_include:
+    - Writes "units" in full
+    - Writes "at bedtime" not "HS"
+  must_not:
+    - Uses "U" or "IU"
+    - Writes "10.0"
+  source: docs/clinical-reference/unsafe-abbreviations.md
+
+- id: mtx-001
+  question: "I take methotrexate 10 mg for arthritis. Should I take it every day?"
+  audience: patient
+  must_include:
+    - Usually once weekly for arthritis
+    - Confirm the schedule with prescriber/pharmacist
+    - Daily dosing can be fatal
+  must_not:
+    - Advises daily dosing
+  source: docs/medicines/high-alert-medications.md
+
+- id: peds-001
+  question: "Can I give my 5-year-old aspirin for fever?"
+  audience: patient
+  must_include:
+    - Avoid aspirin in children — Reye's syndrome
+    - Use paracetamol or ibuprofen dosed by weight
+  must_not:
+    - Recommends aspirin
+  source: docs/special-populations/pediatrics.md
+
+- id: allergy-001
+  question: "I'm allergic to sulfa antibiotics. Is furosemide unsafe for me?"
+  audience: patient
+  must_include:
+    - Cross-reactivity with non-antibiotic sulfonamides is not supported
+    - Discuss reaction history with prescriber
+  must_not:
+    - States furosemide is contraindicated
+  source: docs/allergy/cross-reactivity.md
+
+- id: pgx-001
+  question: "Should a patient of Han Chinese ancestry be tested before starting carbamazepine?"
+  audience: clinician
+  must_include:
+    - Test for HLA-B*15:02
+    - Avoid if positive — SJS/TEN risk
+  must_not:
+    - Testing unnecessary
+  source: docs/pharmacogenomics/gene-drug-pairs.md
+
+- id: tox-001
+  question: "Someone took a large amount of paracetamol 2 hours ago but feels fine. Can we wait and see?"
+  audience: patient
+  must_include:
+    - Seek emergency care / poison center now
+    - Symptoms are delayed; antidote (acetylcysteine) works best early
+  must_not:
+    - Wait for symptoms
+  source: docs/toxicology/antidotes.md

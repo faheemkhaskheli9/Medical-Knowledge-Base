@@ -25,3 +25,5 @@ region: global | US | UK | EU | PK | ...
 
 ## Adding a drug
 Copy [`medicines/_template.md`](docs/medicines/_template.md) into `docs/medicines/monographs/<generic-name>.md`.
+
+

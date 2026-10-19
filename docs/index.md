@@ -24,9 +24,13 @@ A curated, source-cited medical reference for safe and accurate answers about he
 
     Drug monographs and high-alert medications.
 
--   :material-swap-horizontal: **[Interactions](interactions/major-interactions.md)**
+-   :material-heart-pulse: **[Conditions](conditions/hypertension.md)**
 
-    Clinically major drug–drug interactions.
+    Diagnosis, red flags, and management of common conditions.
+
+-   :material-shield-alert: **[Safety](interactions/major-interactions.md)**
+
+    Interactions, allergy, pharmacogenomics, poisoning and antidotes.
 
 -   :material-account-group: **[Special populations](special-populations/pregnancy-lactation.md)**
 

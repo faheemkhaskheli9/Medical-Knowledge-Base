@@ -36,6 +36,7 @@ theme:
 
 exclude_docs: |
   medicines/_template.md
+  conditions/_template.md
 
 plugins:
   - search
@@ -60,14 +61,22 @@ nav:
   - Guidelines:
       - Emergency red flags: guidelines/red-flags.md
       - Answering protocol: guidelines/answering-protocol.md
+  - Conditions:
+      - Hypertension: conditions/hypertension.md
+      - Type 2 diabetes: conditions/type-2-diabetes.md
   - Medicines:
       - High-alert medications: medicines/high-alert-medications.md
+      - Look-alike / sound-alike: medicines/look-alike-sound-alike.md
       - Monographs:
           - Ibuprofen: medicines/monographs/ibuprofen.md
           - Metformin: medicines/monographs/metformin.md
           - Paracetamol: medicines/monographs/paracetamol.md
           - Warfarin: medicines/monographs/warfarin.md
-  - Interactions: interactions/major-interactions.md
+  - Safety:
+      - Major interactions: interactions/major-interactions.md
+      - Allergy & cross-reactivity: allergy/cross-reactivity.md
+      - Pharmacogenomics: pharmacogenomics/gene-drug-pairs.md
+      - Poisoning & antidotes: toxicology/antidotes.md
   - Special populations:
       - Pregnancy & lactation: special-populations/pregnancy-lactation.md
       - Pediatrics: special-populations/pediatrics.md
@@ -76,6 +85,7 @@ nav:
   - Clinical reference:
       - Lab reference ranges: clinical-reference/lab-reference-ranges.md
       - Formulas & conversions: clinical-reference/formulas.md
+      - Clinical scores: clinical-reference/clinical-scores.md
       - Unsafe abbreviations: clinical-reference/unsafe-abbreviations.md
   - Integrations:
       - MCP servers: integrations/mcp-servers.md
