@@ -1,7 +1,7 @@
 # Contributing
 
 ## Content rules
-- Every clinical fact must have a source from [`sources.md`](sources.md).
+- Every clinical fact must have a source from [`sources.md`](docs/sources.md).
 - Every file starts with front matter:
 
 ```yaml
@@ -24,4 +24,4 @@ region: global | US | UK | EU | PK | ...
 - Record changes to recommendations in the commit message with the reason and source.
 
 ## Adding a drug
-Copy [`medicines/_template.md`](medicines/_template.md) into `medicines/monographs/<generic-name>.md`.
+Copy [`medicines/_template.md`](docs/medicines/_template.md) into `docs/medicines/monographs/<generic-name>.md`.

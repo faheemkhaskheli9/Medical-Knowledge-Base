@@ -12,6 +12,7 @@ region: global
 # Metformin
 
 **Class / ATC:** Biguanide — A10BA02
+
 **Mechanism:** Decreases hepatic glucose production, improves insulin sensitivity.
 
 ## Dosing (adult, immediate release)

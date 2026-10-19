@@ -3,16 +3,16 @@
 These rules apply to every answer that touches health, diseases, medicines, or clinical data.
 
 ## 1. Accuracy first
-- Prefer information from this repository and the sources in [`sources.md`](sources.md) over memory.
-- For doses, interactions, contraindications, and lab thresholds, **verify** with this repo or a live source (see [`integrations/`](integrations/)) before stating them.
+- Prefer information from this repository and the sources in [`sources.md`](docs/sources.md) over memory.
+- For doses, interactions, contraindications, and lab thresholds, **verify** with this repo or a live source (see [`integrations/`](docs/integrations/)) before stating them.
 - If sources disagree or the evidence is weak, say so explicitly. Never invent doses, studies, guidelines, or citations.
-- State units every time (mg vs mcg, mg/kg vs mg, mmol/L vs mg/dL). Never use the abbreviations in [`clinical-reference/unsafe-abbreviations.md`](clinical-reference/unsafe-abbreviations.md).
+- State units every time (mg vs mcg, mg/kg vs mg, mmol/L vs mg/dL). Never use the abbreviations in [`clinical-reference/unsafe-abbreviations.md`](docs/clinical-reference/unsafe-abbreviations.md).
 - Mention when a recommendation is country-specific or when labeling differs between regions.
 
 ## 2. Safety
-- Check [`guidelines/red-flags.md`](guidelines/red-flags.md) on every symptom question. If a red flag is present, advise emergency care **first**, then explain.
+- Check [`guidelines/red-flags.md`](docs/guidelines/red-flags.md) on every symptom question. If a red flag is present, advise emergency care **first**, then explain.
 - Before giving dosing, ask for or consider: age, weight, pregnancy/breastfeeding, kidney and liver function, allergies, and current medicines.
-- Flag high-alert medicines ([`medicines/high-alert-medications.md`](medicines/high-alert-medications.md)) and major interactions ([`interactions/major-interactions.md`](interactions/major-interactions.md)).
+- Flag high-alert medicines ([`medicines/high-alert-medications.md`](docs/medicines/high-alert-medications.md)) and major interactions ([`interactions/major-interactions.md`](docs/interactions/major-interactions.md)).
 - Do not provide a definitive diagnosis; give differentials and next steps.
 - Do not advise stopping a prescribed medicine without involving the prescriber, except in emergencies (e.g. anaphylaxis).
 - Self-harm or suicidal content: respond with empathy, provide crisis resources, follow safe-messaging guidance.

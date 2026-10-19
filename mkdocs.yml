@@ -1,0 +1,84 @@
+site_name: Medical Knowledge Base
+site_description: Curated, source-cited medical reference for health, diseases, and medicines.
+repo_url: https://github.com/faheemkhaskheli9/medical-knowledge-base
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: material/medical-bag
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+
+exclude_docs: |
+  medicines/_template.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Guidelines:
+      - Emergency red flags: guidelines/red-flags.md
+      - Answering protocol: guidelines/answering-protocol.md
+  - Medicines:
+      - High-alert medications: medicines/high-alert-medications.md
+      - Monographs:
+          - Ibuprofen: medicines/monographs/ibuprofen.md
+          - Metformin: medicines/monographs/metformin.md
+          - Paracetamol: medicines/monographs/paracetamol.md
+          - Warfarin: medicines/monographs/warfarin.md
+  - Interactions: interactions/major-interactions.md
+  - Special populations:
+      - Pregnancy & lactation: special-populations/pregnancy-lactation.md
+      - Pediatrics: special-populations/pediatrics.md
+      - Older adults: special-populations/older-adults.md
+      - Renal & hepatic: special-populations/renal-hepatic.md
+  - Clinical reference:
+      - Lab reference ranges: clinical-reference/lab-reference-ranges.md
+      - Formulas & conversions: clinical-reference/formulas.md
+      - Unsafe abbreviations: clinical-reference/unsafe-abbreviations.md
+  - Integrations:
+      - MCP servers: integrations/mcp-servers.md
+      - Public APIs: integrations/public-apis.md
+      - Plugins & skills: integrations/plugins-and-skills.md
+  - Sources: sources.md

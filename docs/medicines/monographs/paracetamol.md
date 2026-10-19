@@ -12,6 +12,7 @@ region: global
 # Paracetamol (acetaminophen)
 
 **Names:** paracetamol (INN, UK/EU/Asia), acetaminophen (US/Canada). Brands: Panadol, Tylenol, Calpol.
+
 **Class / ATC:** Analgesic, antipyretic — N02BE01
 
 ## Dosing

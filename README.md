@@ -8,21 +8,22 @@ A curated, source-cited medical reference designed to be loaded as context by AI
 
 1. Read [`AGENTS.md`](AGENTS.md) first — it defines the answering rules.
 2. Look up the relevant file below before answering clinical questions.
-3. When this repo is silent or outdated, use the live sources in [`integrations/`](integrations/) (MCP servers, APIs) and cite them.
+3. When this repo is silent or outdated, use the live sources in [`integrations/`](docs/integrations/) (MCP servers, APIs) and cite them.
 
 ## Structure
 
 | Path | Contents |
 |------|----------|
 | [`AGENTS.md`](AGENTS.md) | Core rules: answer protocol, safety, citation, uncertainty |
-| [`guidelines/`](guidelines/) | Answering protocol, emergency red flags, communication rules |
-| [`medicines/`](medicines/) | Drug monograph template, monographs, high-alert medications |
-| [`interactions/`](interactions/) | Clinically major drug–drug interactions |
-| [`special-populations/`](special-populations/) | Pregnancy/lactation, pediatrics, older adults, renal and hepatic impairment |
-| [`clinical-reference/`](clinical-reference/) | Lab reference ranges, clinical formulas, unit conversions, unsafe abbreviations |
-| [`integrations/`](integrations/) | Medical MCP servers, plugins, skills, and public APIs |
+| [`guidelines/`](docs/guidelines/) | Answering protocol, emergency red flags, communication rules |
+| [`medicines/`](docs/medicines/) | Drug monograph template, monographs, high-alert medications |
+| [`interactions/`](docs/interactions/) | Clinically major drug–drug interactions |
+| [`special-populations/`](docs/special-populations/) | Pregnancy/lactation, pediatrics, older adults, renal and hepatic impairment |
+| [`clinical-reference/`](docs/clinical-reference/) | Lab reference ranges, clinical formulas, unit conversions, unsafe abbreviations |
+| [`integrations/`](docs/integrations/) | Medical MCP servers, plugins, skills, and public APIs |
+| [`mkdocs.yml`](mkdocs.yml), [`overrides/`](overrides/) | Website configuration and theme |
 | [`skills/`](skills/) | Reusable agent skill for medical question answering |
-| [`sources.md`](sources.md) | Trusted sources and evidence hierarchy |
+| [`sources.md`](docs/sources.md) | Trusted sources and evidence hierarchy |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Content standards, review rules, file template |
 
 ## Roadmap — what else to include
@@ -44,3 +45,15 @@ A curated, source-cited medical reference designed to be loaded as context by AI
 - [ ] **Regional context** — local guidelines/formularies (e.g. DRAP for Pakistan, NICE/BNF for UK, FDA for US).
 - [ ] **Evaluation set** — Q&A test cases with expected answers to check assistant accuracy over time.
 - [ ] **Changelog of guideline updates** — track when a recommendation changes.
+
+## Web view
+
+The `docs/` folder is published as a searchable website with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+
+```bash
+pip install -r requirements-docs.txt
+mkdocs serve        # preview at http://127.0.0.1:8000
+mkdocs build        # static site in site/
+```
+
+Publishing: enable **Settings → Pages → Source: GitHub Actions**; [`.github/workflows/docs.yml`](.github/workflows/docs.yml) deploys on every push to `main`.

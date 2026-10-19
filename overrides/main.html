@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  Informational use only — not a substitute for professional medical advice. In an emergency, call your local emergency number.
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+  {% if page.meta and (page.meta.last_reviewed or page.meta.sources) %}
+    <hr>
+    <div class="md-typeset review-meta">
+      {% if page.meta.last_reviewed %}
+        <p><strong>Last reviewed:</strong> {{ page.meta.last_reviewed }}
+        {% if page.meta.reviewed_by %} · <strong>Reviewed by:</strong> {{ page.meta.reviewed_by }}{% endif %}
+        {% if page.meta.region %} · <strong>Region:</strong> {{ page.meta.region }}{% endif %}</p>
+      {% endif %}
+      {% if page.meta.sources %}
+        <p><strong>Sources</strong></p>
+        <ul>
+          {% for source in page.meta.sources %}<li>{{ source }}</li>{% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}

@@ -10,7 +10,9 @@ region:
 # <Generic name>
 
 **Brand names (by country):**
+
 **Class / ATC code:**
+
 **Mechanism:**
 
 ## Indications
