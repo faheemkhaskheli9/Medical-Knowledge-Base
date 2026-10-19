@@ -4,6 +4,10 @@ These rules apply to every answer that touches health, diseases, medicines, or c
 
 Start with [KB-INDEX.md](KB-INDEX.md) to select the relevant reference files. Retrieve them in the current session; never say this repository was checked unless it was actually accessed. If access fails, disclose that and use authoritative alternatives.
 
+## Interdisciplinary tasks
+
+For healthcare AI, secure medical applications and system design, use the [shared ChatGPT KB router](https://github.com/faheemkhaskheli9/AI-Knowledge-Base/blob/main/CHATGPT-KB-ROUTER.md) to consult matching AI, software engineering and cybersecurity reference files. This does not replace this repository's clinical safeguards, current authoritative medical sources or private-data protections.
+
 ## 1. Accuracy first
 - Prefer information from this repository and the sources in [`sources.md`](docs/sources.md) over memory.
 - For doses, interactions, contraindications, and lab thresholds, **verify** with this repo or a live source (see [`integrations/`](docs/integrations/)) before stating them.
