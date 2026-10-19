@@ -76,16 +76,25 @@ nav:
           - ACE inhibitors: medicines/monographs/ace-inhibitors.md
           - Amlodipine: medicines/monographs/amlodipine.md
           - Amoxicillin (± clavulanate): medicines/monographs/amoxicillin.md
+          - Antipsychotics: medicines/monographs/antipsychotics.md
           - Apixaban: medicines/monographs/apixaban.md
           - Atorvastatin: medicines/monographs/atorvastatin.md
+          - Azithromycin: medicines/monographs/azithromycin.md
+          - Ciprofloxacin (fluoroquinolones): medicines/monographs/ciprofloxacin.md
+          - Corticosteroids (prednisolone): medicines/monographs/corticosteroids.md
+          - Doxycycline: medicines/monographs/doxycycline.md
           - Ibuprofen: medicines/monographs/ibuprofen.md
           - Insulin types: medicines/monographs/insulin.md
+          - Levetiracetam: medicines/monographs/levetiracetam.md
           - Levothyroxine: medicines/monographs/levothyroxine.md
+          - Lithium: medicines/monographs/lithium.md
           - Metformin: medicines/monographs/metformin.md
           - Omeprazole (PPIs): medicines/monographs/omeprazole.md
+          - Opioids: medicines/monographs/opioids.md
           - Paracetamol: medicines/monographs/paracetamol.md
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
           - Sertraline: medicines/monographs/sertraline.md
+          - Valproate: medicines/monographs/valproate.md
           - Warfarin: medicines/monographs/warfarin.md
   - Safety:
       - Major interactions: interactions/major-interactions.md

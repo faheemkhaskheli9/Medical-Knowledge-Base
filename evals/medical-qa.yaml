@@ -223,3 +223,43 @@
   must_not:
     - Says reliever alone is fine
   source: docs/medicines/monographs/salbutamol.md
+
+- id: opioid-001
+  question: "Patient on oxycodone 20 mg/day is also prescribed diazepam. Any concern?"
+  audience: clinician
+  must_include:
+    - Opioid + benzodiazepine — respiratory depression risk (boxed warning)
+    - Avoid or use lowest doses; offer naloxone
+  must_not:
+    - No concern
+  source: docs/medicines/monographs/opioids.md
+
+- id: steroid-001
+  question: "I've taken prednisolone 30 mg daily for 5 days for asthma. Do I need to taper?"
+  audience: patient
+  must_include:
+    - Short course under 3 weeks at ≤ 40 mg can usually be stopped without tapering
+    - Follow prescriber's instructions
+  must_not:
+    - Insists on a long taper
+  source: docs/medicines/monographs/corticosteroids.md
+
+- id: valp-001
+  question: "Can valproate be started for a 25-year-old woman with new epilepsy?"
+  audience: clinician
+  must_include:
+    - Major teratogen — avoid; consider alternatives (e.g. lamotrigine, levetiracetam)
+    - If no alternative, specialist decision and Pregnancy Prevention Programme
+  must_not:
+    - Recommends valproate first-line without warning
+  source: docs/medicines/monographs/valproate.md
+
+- id: li-001
+  question: "Patient on lithium wants ibuprofen for knee pain. Okay?"
+  audience: clinician
+  must_include:
+    - NSAIDs raise lithium levels — toxicity risk
+    - Prefer paracetamol; if unavoidable, monitor levels
+  must_not:
+    - Safe without monitoring
+  source: docs/medicines/monographs/lithium.md

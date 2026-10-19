@@ -24,6 +24,15 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Sertraline, SSRIs | [docs/medicines/monographs/sertraline.md](docs/medicines/monographs/sertraline.md) |
 | Levothyroxine | [docs/medicines/monographs/levothyroxine.md](docs/medicines/monographs/levothyroxine.md) |
 | Insulin types | [docs/medicines/monographs/insulin.md](docs/medicines/monographs/insulin.md) |
+| Opioids, morphine equivalents, tramadol, codeine | [docs/medicines/monographs/opioids.md](docs/medicines/monographs/opioids.md) |
+| Prednisolone, steroid equivalents, tapering | [docs/medicines/monographs/corticosteroids.md](docs/medicines/monographs/corticosteroids.md) |
+| Ciprofloxacin, fluoroquinolones | [docs/medicines/monographs/ciprofloxacin.md](docs/medicines/monographs/ciprofloxacin.md) |
+| Azithromycin, macrolides | [docs/medicines/monographs/azithromycin.md](docs/medicines/monographs/azithromycin.md) |
+| Doxycycline, tetracyclines | [docs/medicines/monographs/doxycycline.md](docs/medicines/monographs/doxycycline.md) |
+| Valproate | [docs/medicines/monographs/valproate.md](docs/medicines/monographs/valproate.md) |
+| Levetiracetam | [docs/medicines/monographs/levetiracetam.md](docs/medicines/monographs/levetiracetam.md) |
+| Antipsychotics, clozapine | [docs/medicines/monographs/antipsychotics.md](docs/medicines/monographs/antipsychotics.md) |
+| Lithium | [docs/medicines/monographs/lithium.md](docs/medicines/monographs/lithium.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -60,4 +69,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 14 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 23 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
