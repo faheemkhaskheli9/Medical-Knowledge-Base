@@ -90,6 +90,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Sildenafil, tadalafil (PDE5 inhibitors), nitrate contraindication, alpha-blockers | [docs/medicines/monographs/sildenafil.md](docs/medicines/monographs/sildenafil.md) |
 | Diltiazem, verapamil (rate-limiting calcium-channel blockers), AV block, simvastatin dose limit | [docs/medicines/monographs/diltiazem.md](docs/medicines/monographs/diltiazem.md) |
 | Flucloxacillin, anti-staphylococcal penicillin, cholestatic jaundice, paracetamol metabolic acidosis | [docs/medicines/monographs/flucloxacillin.md](docs/medicines/monographs/flucloxacillin.md) |
+| Rosuvastatin, statin dose limits, Asian ancestry, ciclosporin and gemfibrozil, 40 mg contraindications | [docs/medicines/monographs/rosuvastatin.md](docs/medicines/monographs/rosuvastatin.md) |
+| Naproxen, NSAID boxed warnings, CABG contraindication, pregnancy after 20 weeks, lithium and methotrexate | [docs/medicines/monographs/naproxen.md](docs/medicines/monographs/naproxen.md) |
+| Methylphenidate, ADHD stimulants, abuse and misuse, MAOI contraindication, cardiac risk, growth | [docs/medicines/monographs/methylphenidate.md](docs/medicines/monographs/methylphenidate.md) |
+| Trazodone, antidepressant dosing, priapism, QT prolongation, MAOIs | [docs/medicines/monographs/trazodone.md](docs/medicines/monographs/trazodone.md) |
+| Clindamycin, lincosamides, C. difficile boxed warning, oesophageal irritation, CYP3A4 inducers | [docs/medicines/monographs/clindamycin.md](docs/medicines/monographs/clindamycin.md) |
+| Pioglitazone, thiazolidinediones, heart failure boxed warning, bladder cancer, gemfibrozil dose limit | [docs/medicines/monographs/pioglitazone.md](docs/medicines/monographs/pioglitazone.md) |
+| Fluoxetine, SSRIs, 5-week MAOI washout, CYP2D6 inhibition, hyponatremia, bleeding | [docs/medicines/monographs/fluoxetine.md](docs/medicines/monographs/fluoxetine.md) |
+| Isosorbide mononitrate, oral nitrates, angina, nitrate-free interval, PDE5 inhibitor and riociguat contraindication | [docs/medicines/monographs/isosorbide-mononitrate.md](docs/medicines/monographs/isosorbide-mononitrate.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -126,4 +134,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 80 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 88 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.

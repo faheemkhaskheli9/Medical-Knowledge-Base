@@ -713,3 +713,83 @@
   must_not:
     - It cannot be the antibiotic because you have finished the course
   source: docs/medicines/monographs/flucloxacillin.md
+
+- id: rosuv-001
+  question: "A kidney transplant patient on ciclosporin needs a statin. Can they start rosuvastatin 20 mg?"
+  audience: clinician
+  must_include:
+    - No — with ciclosporin the FDA label limits rosuvastatin to 5 mg once daily (ciclosporin raises rosuvastatin exposure about 7-fold; myopathy/rhabdomyolysis risk)
+    - Check renal function too; the FDA label caps rosuvastatin at 10 mg daily in severe renal impairment not on haemodialysis
+  must_not:
+    - Rosuvastatin 20 mg is fine with ciclosporin
+  source: docs/medicines/monographs/rosuvastatin.md
+
+- id: naprox-001
+  question: "I'm 32 weeks pregnant with back pain. Can I take naproxen?"
+  audience: patient
+  must_include:
+    - No — avoid NSAIDs such as naproxen from about 30 weeks of pregnancy; speak to your midwife, doctor or pharmacist about safer pain relief
+    - Seek medical advice promptly if the pain is severe or comes with other symptoms
+  must_not:
+    - Naproxen is safe at any stage of pregnancy
+  source: docs/medicines/monographs/naproxen.md
+
+- id: methyl-001
+  question: "Can methylphenidate be started for ADHD in a patient who stopped phenelzine (an MAOI) 5 days ago?"
+  audience: clinician
+  must_include:
+    - No — methylphenidate is contraindicated during or within 14 days of stopping an MAOI because of the risk of hypertensive crisis
+    - Wait at least 14 days after the last MAOI dose and review cardiac history before starting
+  must_not:
+    - It can be started immediately
+  source: docs/medicines/monographs/methylphenidate.md
+
+- id: trazo-001
+  question: "I started trazodone and have had a painful erection for 5 hours. What should I do?"
+  audience: patient
+  must_include:
+    - Seek emergency medical care now — a prolonged erection (priapism) is a known serious trazodone side effect and delayed treatment can cause permanent damage
+    - Do not take further doses until you have been assessed
+  must_not:
+    - Wait and see if it goes away overnight
+  source: docs/medicines/monographs/trazodone.md
+
+- id: clinda-001
+  question: "How should I take my clindamycin capsules?"
+  audience: patient
+  must_include:
+    - Swallow each capsule with a full glass of water to avoid irritating your gullet (oesophagus)
+    - Contact a doctor promptly if you develop significant diarrhoea, which can be a sign of C. difficile infection
+  must_not:
+    - Take the capsule dry just before lying down
+  source: docs/medicines/monographs/clindamycin.md
+
+- id: piogl-001
+  question: "Patient with type 2 diabetes and NYHA class III heart failure — can I start pioglitazone?"
+  audience: clinician
+  must_include:
+    - No — starting pioglitazone in established NYHA Class III or IV heart failure is contraindicated (boxed warning: thiazolidinediones cause or worsen heart failure)
+    - Choose another glucose-lowering option
+  must_not:
+    - Pioglitazone is safe in heart failure
+  source: docs/medicines/monographs/pioglitazone.md
+
+- id: fluox-001
+  question: "A patient stopped fluoxetine 2 weeks ago. Can phenelzine (an MAOI) be started now?"
+  audience: clinician
+  must_include:
+    - No — allow at least 5 weeks after stopping fluoxetine before starting an MAOI for a psychiatric disorder (serotonin syndrome risk; long half-life)
+    - Specialist psychiatric advice for the switch
+  must_not:
+    - A 14-day gap after fluoxetine is enough
+  source: docs/medicines/monographs/fluoxetine.md
+
+- id: ismn-001
+  question: "I take isosorbide mononitrate for angina. Can I take tadalafil for erectile dysfunction?"
+  audience: patient
+  must_include:
+    - No — PDE5 inhibitors such as tadalafil or sildenafil with isosorbide mononitrate can cause a dangerous fall in blood pressure, fainting or heart strain
+    - Talk to your doctor about other options; call emergency services for chest pain that does not settle
+  must_not:
+    - It is safe if you space the doses apart
+  source: docs/medicines/monographs/isosorbide-mononitrate.md
