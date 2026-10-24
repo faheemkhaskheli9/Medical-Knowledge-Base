@@ -50,6 +50,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Lamotrigine, titration, rash | [docs/medicines/monographs/lamotrigine.md](docs/medicines/monographs/lamotrigine.md) |
 | Ondansetron, antiemetics, QT | [docs/medicines/monographs/ondansetron.md](docs/medicines/monographs/ondansetron.md) |
 | Colchicine, gout flares | [docs/medicines/monographs/colchicine.md](docs/medicines/monographs/colchicine.md) |
+| Metronidazole, anaerobes, alcohol interaction | [docs/medicines/monographs/metronidazole.md](docs/medicines/monographs/metronidazole.md) |
+| Fluconazole, azole antifungals, CYP interactions | [docs/medicines/monographs/fluconazole.md](docs/medicines/monographs/fluconazole.md) |
+| Enoxaparin, dalteparin (LMWH), renal dosing, protamine | [docs/medicines/monographs/enoxaparin.md](docs/medicines/monographs/enoxaparin.md) |
+| Hydroxychloroquine, retinal screening | [docs/medicines/monographs/hydroxychloroquine.md](docs/medicines/monographs/hydroxychloroquine.md) |
+| Montelukast, leukotriene antagonists, neuropsychiatric warning | [docs/medicines/monographs/montelukast.md](docs/medicines/monographs/montelukast.md) |
+| Tamsulosin, alpha-blockers, BPH, floppy iris | [docs/medicines/monographs/tamsulosin.md](docs/medicines/monographs/tamsulosin.md) |
+| Metoclopramide, dose and duration limits, tardive dyskinesia | [docs/medicines/monographs/metoclopramide.md](docs/medicines/monographs/metoclopramide.md) |
+| Cetirizine, loratadine, fexofenadine (antihistamines) | [docs/medicines/monographs/cetirizine.md](docs/medicines/monographs/cetirizine.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -86,4 +94,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 40 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 48 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
