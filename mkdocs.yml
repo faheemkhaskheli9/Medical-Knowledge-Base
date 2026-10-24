@@ -95,6 +95,7 @@ nav:
           - Ciprofloxacin (fluoroquinolones): medicines/monographs/ciprofloxacin.md
           - Citalopram (SSRIs): medicines/monographs/citalopram.md
           - Clarithromycin (macrolides): medicines/monographs/clarithromycin.md
+          - Clindamycin: medicines/monographs/clindamycin.md
           - Clopidogrel: medicines/monographs/clopidogrel.md
           - Colchicine: medicines/monographs/colchicine.md
           - Corticosteroids (prednisolone): medicines/monographs/corticosteroids.md
@@ -110,12 +111,14 @@ nav:
           - Finasteride (5-alpha-reductase inhibitors): medicines/monographs/finasteride.md
           - Flucloxacillin: medicines/monographs/flucloxacillin.md
           - Fluconazole: medicines/monographs/fluconazole.md
+          - Fluoxetine: medicines/monographs/fluoxetine.md
           - Furosemide (loop diuretics): medicines/monographs/furosemide.md
           - Gabapentin & pregabalin: medicines/monographs/gabapentinoids.md
           - Gliclazide (sulfonylureas): medicines/monographs/gliclazide.md
           - Hydroxychloroquine: medicines/monographs/hydroxychloroquine.md
           - Ibuprofen: medicines/monographs/ibuprofen.md
           - Insulin types: medicines/monographs/insulin.md
+          - Isosorbide mononitrate (oral nitrates): medicines/monographs/isosorbide-mononitrate.md
           - Lamotrigine: medicines/monographs/lamotrigine.md
           - Levetiracetam: medicines/monographs/levetiracetam.md
           - Levothyroxine: medicines/monographs/levothyroxine.md
@@ -123,10 +126,12 @@ nav:
           - Losartan (ARBs): medicines/monographs/losartan.md
           - Metformin: medicines/monographs/metformin.md
           - Methotrexate (weekly): medicines/monographs/methotrexate.md
+          - Methylphenidate: medicines/monographs/methylphenidate.md
           - Metoclopramide: medicines/monographs/metoclopramide.md
           - Metronidazole: medicines/monographs/metronidazole.md
           - Mirtazapine: medicines/monographs/mirtazapine.md
           - Montelukast: medicines/monographs/montelukast.md
+          - Naproxen: medicines/monographs/naproxen.md
           - Nitrofurantoin: medicines/monographs/nitrofurantoin.md
           - Omeprazole (PPIs): medicines/monographs/omeprazole.md
           - Ondansetron: medicines/monographs/ondansetron.md
@@ -134,7 +139,9 @@ nav:
           - Oxybutynin (bladder antimuscarinics): medicines/monographs/oxybutynin.md
           - Paracetamol: medicines/monographs/paracetamol.md
           - Phenytoin: medicines/monographs/phenytoin.md
+          - Pioglitazone: medicines/monographs/pioglitazone.md
           - Rivaroxaban: medicines/monographs/rivaroxaban.md
+          - Rosuvastatin: medicines/monographs/rosuvastatin.md
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
           - Sertraline: medicines/monographs/sertraline.md
           - SGLT2 inhibitors: medicines/monographs/sglt2-inhibitors.md
@@ -147,6 +154,7 @@ nav:
           - Ticagrelor: medicines/monographs/ticagrelor.md
           - Topiramate: medicines/monographs/topiramate.md
           - Tranexamic acid: medicines/monographs/tranexamic-acid.md
+          - Trazodone: medicines/monographs/trazodone.md
           - Trimethoprim (co-trimoxazole): medicines/monographs/trimethoprim.md
           - Valaciclovir (aciclovir): medicines/monographs/valaciclovir.md
           - Valproate: medicines/monographs/valproate.md
