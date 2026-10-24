@@ -98,6 +98,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Pioglitazone, thiazolidinediones, heart failure boxed warning, bladder cancer, gemfibrozil dose limit | [docs/medicines/monographs/pioglitazone.md](docs/medicines/monographs/pioglitazone.md) |
 | Fluoxetine, SSRIs, 5-week MAOI washout, CYP2D6 inhibition, hyponatremia, bleeding | [docs/medicines/monographs/fluoxetine.md](docs/medicines/monographs/fluoxetine.md) |
 | Isosorbide mononitrate, oral nitrates, angina, nitrate-free interval, PDE5 inhibitor and riociguat contraindication | [docs/medicines/monographs/isosorbide-mononitrate.md](docs/medicines/monographs/isosorbide-mononitrate.md) |
+| Simvastatin, statin dose limits with interacting drugs, strong CYP3A4 inhibitor contraindication, 80 mg restriction | [docs/medicines/monographs/simvastatin.md](docs/medicines/monographs/simvastatin.md) |
+| Meloxicam, NSAID boxed warnings, 15 mg daily maximum, CABG contraindication, pregnancy after 20 weeks | [docs/medicines/monographs/meloxicam.md](docs/medicines/monographs/meloxicam.md) |
+| Propranolol, non-selective beta-blockers, asthma contraindication, migraine prophylaxis, abrupt withdrawal, masked hypoglycaemia | [docs/medicines/monographs/propranolol.md](docs/medicines/monographs/propranolol.md) |
+| Buspirone, anxiolytic dosing, MAOI contraindication, CYP3A4 inhibitors and grapefruit | [docs/medicines/monographs/buspirone.md](docs/medicines/monographs/buspirone.md) |
+| Hydroxyzine, sedating antihistamines, QT prolongation, MHRA maximum daily dose, older adults, early pregnancy | [docs/medicines/monographs/hydroxyzine.md](docs/medicines/monographs/hydroxyzine.md) |
+| Terbinafine (oral), onychomycosis, hepatotoxicity, taste and smell loss, CYP2D6 inhibition | [docs/medicines/monographs/terbinafine.md](docs/medicines/monographs/terbinafine.md) |
+| Tizanidine, muscle relaxants, spasticity, fluvoxamine and ciprofloxacin contraindication, hypotension, withdrawal | [docs/medicines/monographs/tizanidine.md](docs/medicines/monographs/tizanidine.md) |
+| Nifedipine, dihydropyridine calcium-channel blockers, immediate-release not for acute blood pressure lowering, extended-release GI obstruction | [docs/medicines/monographs/nifedipine.md](docs/medicines/monographs/nifedipine.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -134,4 +142,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 88 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 96 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.

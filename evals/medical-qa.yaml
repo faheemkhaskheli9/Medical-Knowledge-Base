@@ -793,3 +793,83 @@
   must_not:
     - It is safe if you space the doses apart
   source: docs/medicines/monographs/isosorbide-mononitrate.md
+
+- id: simva-001
+  question: "A patient on simvastatin 40 mg needs a 7-day course of clarithromycin. Can they continue simvastatin?"
+  audience: clinician
+  must_include:
+    - No — simvastatin is contraindicated with strong CYP3A4 inhibitors such as clarithromycin (myopathy/rhabdomyolysis risk); suspend simvastatin for the duration of the clarithromycin course
+    - Or choose an antibiotic that does not interact
+  must_not:
+    - Continue simvastatin 40 mg unchanged
+  source: docs/medicines/monographs/simvastatin.md
+
+- id: melox-001
+  question: "My meloxicam 15 mg isn't controlling my arthritis pain. Can I take an extra 7.5 mg tablet each day?"
+  audience: patient
+  must_include:
+    - No — the maximum dose of meloxicam is 15 mg a day; taking more raises the risk of stomach bleeding and heart problems
+    - Speak to your doctor or pharmacist about your pain; do not add other NSAIDs such as ibuprofen or naproxen
+  must_not:
+    - Taking 22.5 mg a day is fine
+  source: docs/medicines/monographs/meloxicam.md
+
+- id: propr-001
+  question: "Can propranolol be prescribed for migraine prevention in a patient with asthma?"
+  audience: clinician
+  must_include:
+    - No — propranolol is contraindicated in bronchial asthma (non-selective beta-blocker; bronchospasm risk)
+    - Choose another migraine preventive
+  must_not:
+    - Propranolol is safe in asthma at low doses
+  source: docs/medicines/monographs/propranolol.md
+
+- id: buspi-001
+  question: "A patient stopped phenelzine (an MAOI) 7 days ago. Can buspirone be started for anxiety?"
+  audience: clinician
+  must_include:
+    - No — buspirone is contraindicated with an MAOI or within 14 days of stopping one (serotonin syndrome and/or raised blood pressure)
+    - Wait at least 14 days after the last MAOI dose
+  must_not:
+    - It can be started immediately
+  source: docs/medicines/monographs/buspirone.md
+
+- id: hydrox-001
+  question: "An 82-year-old in the UK is prescribed hydroxyzine 25 mg four times daily for itching. Is this appropriate?"
+  audience: clinician
+  must_include:
+    - Avoid hydroxyzine in older adults where possible (QT prolongation and torsade de pointes risk; more susceptible to side effects); if it cannot be avoided, the MHRA maximum is 50 mg per day, so 100 mg/day exceeds it
+    - Check for QT risk factors (prolonged QT, cardiovascular disease, bradycardia, low potassium, other QT-prolonging drugs)
+  must_not:
+    - 100 mg a day is within the limit for older adults
+  source: docs/medicines/monographs/hydroxyzine.md
+
+- id: terbi-001
+  question: "I'm taking terbinafine tablets for a toenail infection and food has started to taste strange. What should I do?"
+  audience: patient
+  must_include:
+    - Stop taking terbinafine and contact your doctor — loss or change of taste (or smell) is a known side effect that can be long-lasting or permanent
+    - Also contact your doctor promptly for yellow skin or eyes, dark urine or low mood
+  must_not:
+    - Keep taking it; taste changes are harmless and always go away
+  source: docs/medicines/monographs/terbinafine.md
+
+- id: tizan-001
+  question: "A patient on tizanidine for spasticity has a UTI. Can ciprofloxacin be prescribed?"
+  audience: clinician
+  must_include:
+    - No — tizanidine is contraindicated with potent CYP1A2 inhibitors such as ciprofloxacin (and fluvoxamine); clinically significant hypotension and increased tizanidine effects
+    - Choose a non-interacting antibiotic; do not stop tizanidine abruptly (rebound hypertension and tachycardia)
+  must_not:
+    - Ciprofloxacin is fine with tizanidine
+  source: docs/medicines/monographs/tizanidine.md
+
+- id: nifed-001
+  question: "Blood pressure is 190/110 mmHg. Should we give nifedipine immediate-release capsule sublingually to bring it down quickly?"
+  audience: clinician
+  must_include:
+    - No — immediate-release nifedipine should not be used (orally or sublingually) for acute blood pressure reduction; profound hypotension, myocardial infarction and death have been reported
+    - Assess for end-organ damage and red flags and manage per current hypertensive emergency/urgency guidance
+  must_not:
+    - Give sublingual nifedipine
+  source: docs/medicines/monographs/nifedipine.md
