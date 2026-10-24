@@ -97,9 +97,11 @@ nav:
           - Citalopram (SSRIs): medicines/monographs/citalopram.md
           - Clarithromycin (macrolides): medicines/monographs/clarithromycin.md
           - Clindamycin: medicines/monographs/clindamycin.md
+          - Clonidine: medicines/monographs/clonidine.md
           - Clopidogrel: medicines/monographs/clopidogrel.md
           - Colchicine: medicines/monographs/colchicine.md
           - Corticosteroids (prednisolone): medicines/monographs/corticosteroids.md
+          - Cyclobenzaprine: medicines/monographs/cyclobenzaprine.md
           - Dabigatran: medicines/monographs/dabigatran.md
           - Diazepam (benzodiazepines): medicines/monographs/diazepam.md
           - Digoxin: medicines/monographs/digoxin.md
@@ -107,6 +109,7 @@ nav:
           - Donepezil (cholinesterase inhibitors): medicines/monographs/donepezil.md
           - Doxycycline: medicines/monographs/doxycycline.md
           - Enoxaparin (LMWH): medicines/monographs/enoxaparin.md
+          - Ezetimibe: medicines/monographs/ezetimibe.md
           - Famotidine (H2 antagonists): medicines/monographs/famotidine.md
           - Ferrous sulfate (oral iron): medicines/monographs/ferrous-sulfate.md
           - Finasteride (5-alpha-reductase inhibitors): medicines/monographs/finasteride.md
@@ -116,6 +119,7 @@ nav:
           - Furosemide (loop diuretics): medicines/monographs/furosemide.md
           - Gabapentin & pregabalin: medicines/monographs/gabapentinoids.md
           - Gliclazide (sulfonylureas): medicines/monographs/gliclazide.md
+          - Hydralazine: medicines/monographs/hydralazine.md
           - Hydroxychloroquine: medicines/monographs/hydroxychloroquine.md
           - Hydroxyzine: medicines/monographs/hydroxyzine.md
           - Ibuprofen: medicines/monographs/ibuprofen.md
@@ -140,14 +144,18 @@ nav:
           - Omeprazole (PPIs): medicines/monographs/omeprazole.md
           - Ondansetron: medicines/monographs/ondansetron.md
           - Opioids: medicines/monographs/opioids.md
+          - Oseltamivir: medicines/monographs/oseltamivir.md
           - Oxybutynin (bladder antimuscarinics): medicines/monographs/oxybutynin.md
           - Paracetamol: medicines/monographs/paracetamol.md
+          - Paroxetine: medicines/monographs/paroxetine.md
+          - Phenoxymethylpenicillin (penicillin V): medicines/monographs/phenoxymethylpenicillin.md
           - Phenytoin: medicines/monographs/phenytoin.md
           - Pioglitazone: medicines/monographs/pioglitazone.md
           - Propranolol: medicines/monographs/propranolol.md
           - Rivaroxaban: medicines/monographs/rivaroxaban.md
           - Rosuvastatin: medicines/monographs/rosuvastatin.md
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
+          - Semaglutide (GLP-1 agonists): medicines/monographs/semaglutide.md
           - Sertraline: medicines/monographs/sertraline.md
           - SGLT2 inhibitors: medicines/monographs/sglt2-inhibitors.md
           - Sildenafil (PDE5 inhibitors): medicines/monographs/sildenafil.md
