@@ -314,7 +314,7 @@
     - No additional risk
   source: docs/medicines/monographs/gabapentinoids.md
 
-- id: mtx-001
+- id: mtx-002
   question: "My new prescription says methotrexate 10 mg. Should I take it every day?"
   audience: patient
   must_include:
