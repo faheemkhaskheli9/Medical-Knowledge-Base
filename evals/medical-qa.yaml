@@ -873,3 +873,83 @@
   must_not:
     - Give sublingual nifedipine
   source: docs/medicines/monographs/nifedipine.md
+
+- id: ezeti-001
+  question: "I take colestyramine powder in the morning. When should I take my ezetimibe?"
+  audience: patient
+  must_include:
+    - Take ezetimibe at least 2 hours before or at least 4 hours after colestyramine (it reduces ezetimibe absorption)
+    - The usual dose is 10 mg once a day, with or without food
+  must_not:
+    - Take them together at the same time
+  source: docs/medicines/monographs/ezetimibe.md
+
+- id: oselt-001
+  question: "An adult with influenza has a creatinine clearance of 45 mL/min. What oseltamivir treatment dose should be used?"
+  audience: clinician
+  must_include:
+    - 30 mg PO twice daily for 5 days (creatinine clearance more than 30 to 60 mL/min), instead of the usual 75 mg twice daily
+    - Check the current label; doses differ for prophylaxis, dialysis and lower creatinine clearance
+  must_not:
+    - 75 mg twice daily with no adjustment
+  source: docs/medicines/monographs/oseltamivir.md
+
+- id: cyclo-001
+  question: "Can cyclobenzaprine be prescribed for back spasm in a patient taking phenelzine?"
+  audience: clinician
+  must_include:
+    - No — cyclobenzaprine is contraindicated with MAOIs such as phenelzine, and within 14 days of stopping them (hyperpyretic crisis, convulsions, serotonin syndrome)
+    - If used at all, cyclobenzaprine is for short-term use only (2 to 3 weeks)
+  must_not:
+    - It is safe to combine with an MAOI at a low dose
+  source: docs/medicines/monographs/cyclobenzaprine.md
+
+- id: parox-001
+  question: "A woman taking tamoxifen for breast cancer needs an antidepressant. Is paroxetine a good choice?"
+  audience: clinician
+  must_include:
+    - Avoid paroxetine — it is a strong CYP2D6 inhibitor and may reduce tamoxifen's effectiveness
+    - Consider an antidepressant with little or no CYP2D6 inhibition
+  must_not:
+    - Paroxetine is the preferred SSRI with tamoxifen
+  source: docs/medicines/monographs/paroxetine.md
+
+- id: hydra-001
+  question: "A patient on long-term hydralazine develops joint pains, fever and a rash. What should be considered?"
+  audience: clinician
+  must_include:
+    - Hydralazine-induced lupus-like syndrome (more likely with higher doses, long treatment, slow acetylators and women)
+    - Check ANA and full blood count; stop hydralazine unless the benefit clearly outweighs the risk
+  must_not:
+    - These symptoms are unrelated to hydralazine
+  source: docs/medicines/monographs/hydralazine.md
+
+- id: cloni-001
+  question: "I've run out of my clonidine tablets for blood pressure. Is it OK to just stop them for a week until my next appointment?"
+  audience: patient
+  must_include:
+    - No — stopping clonidine suddenly can cause a dangerous rebound rise in blood pressure; contact your prescriber or pharmacist today for a supply
+    - Seek urgent care for severe headache, confusion, chest pain or agitation
+  must_not:
+    - It is fine to stop clonidine suddenly
+  source: docs/medicines/monographs/clonidine.md
+
+- id: semag-001
+  question: "Can semaglutide (Ozempic) be started in a patient whose mother had medullary thyroid carcinoma?"
+  audience: clinician
+  must_include:
+    - No — semaglutide is contraindicated with a personal or family history of medullary thyroid carcinoma or MEN 2 (boxed warning, thyroid C-cell tumours)
+    - Choose a different glucose-lowering drug
+  must_not:
+    - It is fine with thyroid monitoring
+  source: docs/medicines/monographs/semaglutide.md
+
+- id: penv-001
+  question: "What is the NICE adult dose of phenoxymethylpenicillin for acute sore throat when an antibiotic is needed?"
+  audience: clinician
+  must_include:
+    - 500 mg PO four times daily or 1000 mg PO twice daily for 5 to 10 days (NICE NG84, adults 18 and over)
+    - Check penicillin allergy first; NICE alternative in penicillin allergy is clarithromycin
+  must_not:
+    - Give it to a patient with penicillin anaphylaxis
+  source: docs/medicines/monographs/phenoxymethylpenicillin.md

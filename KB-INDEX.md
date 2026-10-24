@@ -106,6 +106,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Terbinafine (oral), onychomycosis, hepatotoxicity, taste and smell loss, CYP2D6 inhibition | [docs/medicines/monographs/terbinafine.md](docs/medicines/monographs/terbinafine.md) |
 | Tizanidine, muscle relaxants, spasticity, fluvoxamine and ciprofloxacin contraindication, hypotension, withdrawal | [docs/medicines/monographs/tizanidine.md](docs/medicines/monographs/tizanidine.md) |
 | Nifedipine, dihydropyridine calcium-channel blockers, immediate-release not for acute blood pressure lowering, extended-release GI obstruction | [docs/medicines/monographs/nifedipine.md](docs/medicines/monographs/nifedipine.md) |
+| Ezetimibe, cholesterol absorption inhibitor, statin add-on, bile acid sequestrant timing, ciclosporin, hepatic impairment | [docs/medicines/monographs/ezetimibe.md](docs/medicines/monographs/ezetimibe.md) |
+| Oseltamivir, influenza treatment and prophylaxis, renal dosing, neuropsychiatric events, live attenuated influenza vaccine timing | [docs/medicines/monographs/oseltamivir.md](docs/medicines/monographs/oseltamivir.md) |
+| Cyclobenzaprine, muscle relaxants, short-term use only, MAOI and serotonin syndrome, tricyclic-like cardiac contraindications, older adults | [docs/medicines/monographs/cyclobenzaprine.md](docs/medicines/monographs/cyclobenzaprine.md) |
+| Paroxetine, SSRIs, CYP2D6 inhibition and tamoxifen, first-trimester cardiac malformations, discontinuation syndrome, thioridazine and pimozide | [docs/medicines/monographs/paroxetine.md](docs/medicines/monographs/paroxetine.md) |
+| Hydralazine, direct vasodilators, drug-induced lupus, reflex tachycardia, coronary artery disease contraindication, BiDil | [docs/medicines/monographs/hydralazine.md](docs/medicines/monographs/hydralazine.md) |
+| Clonidine, central alpha-2 agonists, rebound hypertension on withdrawal, beta-blocker sequencing, mg vs micrograms, child poisoning | [docs/medicines/monographs/clonidine.md](docs/medicines/monographs/clonidine.md) |
+| Semaglutide (Ozempic, Wegovy, Rybelsus), GLP-1 receptor agonists, dose escalation, thyroid C-cell boxed warning, pancreatitis, NAION, aspiration with anaesthesia | [docs/medicines/monographs/semaglutide.md](docs/medicines/monographs/semaglutide.md) |
+| Phenoxymethylpenicillin (penicillin V), acute sore throat, NICE NG84 dosing, penicillin allergy, methotrexate interaction | [docs/medicines/monographs/phenoxymethylpenicillin.md](docs/medicines/monographs/phenoxymethylpenicillin.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -142,4 +150,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 96 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 104 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
