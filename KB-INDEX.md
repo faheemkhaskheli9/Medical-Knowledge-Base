@@ -58,6 +58,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Tamsulosin, alpha-blockers, BPH, floppy iris | [docs/medicines/monographs/tamsulosin.md](docs/medicines/monographs/tamsulosin.md) |
 | Metoclopramide, dose and duration limits, tardive dyskinesia | [docs/medicines/monographs/metoclopramide.md](docs/medicines/monographs/metoclopramide.md) |
 | Cetirizine, loratadine, fexofenadine (antihistamines) | [docs/medicines/monographs/cetirizine.md](docs/medicines/monographs/cetirizine.md) |
+| Cefalexin (cephalexin), first-generation cephalosporins, penicillin allergy | [docs/medicines/monographs/cefalexin.md](docs/medicines/monographs/cefalexin.md) |
+| Amitriptyline, tricyclic antidepressants, neuropathic pain, overdose | [docs/medicines/monographs/amitriptyline.md](docs/medicines/monographs/amitriptyline.md) |
+| Mirtazapine, agranulocytosis, sedation | [docs/medicines/monographs/mirtazapine.md](docs/medicines/monographs/mirtazapine.md) |
+| Gliclazide, glimepiride, glipizide (sulfonylureas), hypoglycemia | [docs/medicines/monographs/gliclazide.md](docs/medicines/monographs/gliclazide.md) |
+| Alendronate, bisphosphonates, administration, osteonecrosis of the jaw | [docs/medicines/monographs/alendronate.md](docs/medicines/monographs/alendronate.md) |
+| Diazepam, benzodiazepines, opioid co-prescribing, withdrawal | [docs/medicines/monographs/diazepam.md](docs/medicines/monographs/diazepam.md) |
+| Famotidine, H2-receptor antagonists, renal dosing | [docs/medicines/monographs/famotidine.md](docs/medicines/monographs/famotidine.md) |
+| Sumatriptan, triptans, migraine, cardiovascular contraindications | [docs/medicines/monographs/sumatriptan.md](docs/medicines/monographs/sumatriptan.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -94,4 +102,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 48 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 56 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
