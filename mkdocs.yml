@@ -91,11 +91,15 @@ nav:
           - Cefalexin (cephalexin): medicines/monographs/cefalexin.md
           - Cetirizine (antihistamines): medicines/monographs/cetirizine.md
           - Ciprofloxacin (fluoroquinolones): medicines/monographs/ciprofloxacin.md
+          - Citalopram (SSRIs): medicines/monographs/citalopram.md
+          - Clarithromycin (macrolides): medicines/monographs/clarithromycin.md
           - Clopidogrel: medicines/monographs/clopidogrel.md
           - Colchicine: medicines/monographs/colchicine.md
           - Corticosteroids (prednisolone): medicines/monographs/corticosteroids.md
+          - Dabigatran: medicines/monographs/dabigatran.md
           - Diazepam (benzodiazepines): medicines/monographs/diazepam.md
           - Digoxin: medicines/monographs/digoxin.md
+          - Donepezil (cholinesterase inhibitors): medicines/monographs/donepezil.md
           - Doxycycline: medicines/monographs/doxycycline.md
           - Enoxaparin (LMWH): medicines/monographs/enoxaparin.md
           - Famotidine (H2 antagonists): medicines/monographs/famotidine.md
@@ -129,10 +133,14 @@ nav:
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
           - Sertraline: medicines/monographs/sertraline.md
           - SGLT2 inhibitors: medicines/monographs/sglt2-inhibitors.md
+          - Sitagliptin (DPP-4 inhibitors): medicines/monographs/sitagliptin.md
           - Spironolactone (MRAs): medicines/monographs/spironolactone.md
           - Sumatriptan (triptans): medicines/monographs/sumatriptan.md
           - Tamsulosin (alpha-blockers): medicines/monographs/tamsulosin.md
           - Thiazide diuretics: medicines/monographs/thiazides.md
+          - Ticagrelor: medicines/monographs/ticagrelor.md
+          - Topiramate: medicines/monographs/topiramate.md
+          - Tranexamic acid: medicines/monographs/tranexamic-acid.md
           - Trimethoprim (co-trimoxazole): medicines/monographs/trimethoprim.md
           - Valproate: medicines/monographs/valproate.md
           - Venlafaxine (SNRIs): medicines/monographs/venlafaxine.md

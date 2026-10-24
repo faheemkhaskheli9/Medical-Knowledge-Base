@@ -74,6 +74,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Carbimazole, methimazole, propylthiouracil (antithyroid), agranulocytosis | [docs/medicines/monographs/carbimazole.md](docs/medicines/monographs/carbimazole.md) |
 | Finasteride, dutasteride (5-alpha-reductase inhibitors), PSA | [docs/medicines/monographs/finasteride.md](docs/medicines/monographs/finasteride.md) |
 | Ferrous sulfate, oral iron, iron-deficiency anemia, iron overdose | [docs/medicines/monographs/ferrous-sulfate.md](docs/medicines/monographs/ferrous-sulfate.md) |
+| Dabigatran, direct thrombin inhibitor, renal dosing, idarucizumab | [docs/medicines/monographs/dabigatran.md](docs/medicines/monographs/dabigatran.md) |
+| Ticagrelor, P2Y12 inhibitors, aspirin dose, CYP3A interactions, dyspnea | [docs/medicines/monographs/ticagrelor.md](docs/medicines/monographs/ticagrelor.md) |
+| Sitagliptin, DPP-4 inhibitors (gliptins), renal dosing, pancreatitis | [docs/medicines/monographs/sitagliptin.md](docs/medicines/monographs/sitagliptin.md) |
+| Citalopram, escitalopram, QT prolongation, maximum dose in older adults | [docs/medicines/monographs/citalopram.md](docs/medicines/monographs/citalopram.md) |
+| Topiramate, migraine prevention, pregnancy prevention programme, angle-closure glaucoma | [docs/medicines/monographs/topiramate.md](docs/medicines/monographs/topiramate.md) |
+| Donepezil, cholinesterase inhibitors, dementia, bradycardia | [docs/medicines/monographs/donepezil.md](docs/medicines/monographs/donepezil.md) |
+| Clarithromycin, macrolides, CYP3A4 interactions, statins and colchicine | [docs/medicines/monographs/clarithromycin.md](docs/medicines/monographs/clarithromycin.md) |
+| Tranexamic acid, antifibrinolytics, heavy menstrual bleeding, IV-only route error | [docs/medicines/monographs/tranexamic-acid.md](docs/medicines/monographs/tranexamic-acid.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -110,4 +118,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 64 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 72 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.

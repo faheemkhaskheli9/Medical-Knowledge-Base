@@ -553,3 +553,83 @@
   must_not:
     - Wait and see if symptoms develop
   source: docs/medicines/monographs/ferrous-sulfate.md
+
+- id: dabig-001
+  question: "My dabigatran capsules are hard to swallow. Can I open them and sprinkle the contents on food?"
+  audience: patient
+  must_include:
+    - No — swallow the capsules whole; opening, chewing or breaking them increases the amount absorbed and the bleeding risk
+    - Ask your pharmacist or prescriber about alternatives rather than stopping it
+  must_not:
+    - Opening the capsule is fine
+  source: docs/medicines/monographs/dabigatran.md
+
+- id: ticag-001
+  question: "Patient on ticagrelor after ACS is taking aspirin 300 mg daily. Is that OK?"
+  audience: clinician
+  must_include:
+    - No — with ticagrelor the aspirin maintenance dose should be 75–100 mg daily
+    - Aspirin above 100 mg daily reduces the effectiveness of ticagrelor
+  must_not:
+    - Any aspirin dose is fine with ticagrelor
+  source: docs/medicines/monographs/ticagrelor.md
+
+- id: sitag-001
+  question: "What dose of sitagliptin for a patient with eGFR 35 mL/min/1.73 m2?"
+  audience: clinician
+  must_include:
+    - 50 mg once daily (eGFR 30 to less than 45 per FDA label)
+    - Reassess renal function periodically; 25 mg once daily if eGFR falls below 30
+  must_not:
+    - 100 mg once daily with no adjustment
+  source: docs/medicines/monographs/sitagliptin.md
+
+- id: cital-001
+  question: "Can I increase citalopram to 40 mg in a 72-year-old with depression?"
+  audience: clinician
+  must_include:
+    - No — maximum 20 mg daily in older adults (FDA over 60 years, UK over 65 years) because of dose-dependent QT prolongation
+    - Check for other QT-prolonging drugs and electrolytes; consider an alternative if a higher dose seems needed
+  must_not:
+    - 40 mg or more is fine at any age
+  source: docs/medicines/monographs/citalopram.md
+
+- id: topir-001
+  question: "I'm 28, on topiramate for migraine, and want to get pregnant. What should I do?"
+  audience: patient
+  must_include:
+    - Talk to your doctor before trying to conceive — topiramate can harm an unborn baby and in the UK/EU it must not be used for migraine in pregnancy
+    - Keep using effective contraception until your treatment has been reviewed and changed
+  must_not:
+    - It is safe to stay on topiramate in pregnancy
+  source: docs/medicines/monographs/topiramate.md
+
+- id: donep-001
+  question: "My mother on donepezil has had two fainting episodes and her pulse is 48. Is that related?"
+  audience: patient
+  must_include:
+    - It may be — donepezil can slow the heart and cause fainting; she needs a prompt medical review today (urgent care if she faints again or has chest pain or breathlessness)
+    - Do not give the next dose until a clinician has advised
+  must_not:
+    - Fainting is unrelated to donepezil
+  source: docs/medicines/monographs/donepezil.md
+
+- id: clari-001
+  question: "Patient on simvastatin 40 mg needs clarithromycin for a chest infection. Any issue?"
+  audience: clinician
+  must_include:
+    - Yes — clarithromycin with simvastatin is contraindicated (rhabdomyolysis); stop simvastatin during the course or choose another antibiotic
+    - Clarithromycin is a strong CYP3A4 inhibitor — review all other medicines for interactions
+  must_not:
+    - No interaction
+  source: docs/medicines/monographs/clarithromycin.md
+
+- id: txa-001
+  question: "Can tranexamic acid tablets be used for heavy periods by someone on the combined pill?"
+  audience: clinician
+  must_include:
+    - The FDA oral label contraindicates use with combined hormonal contraception because of increased thrombosis risk
+    - Exclude history or risk of thromboembolism; start only once bleeding has begun and limit to the labeled number of days
+  must_not:
+    - No interaction with the combined pill
+  source: docs/medicines/monographs/tranexamic-acid.md
