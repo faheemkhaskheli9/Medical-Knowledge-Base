@@ -314,7 +314,7 @@
     - No additional risk
   source: docs/medicines/monographs/gabapentinoids.md
 
-- id: mtx-001
+- id: mtx-002
   question: "My new prescription says methotrexate 10 mg. Should I take it every day?"
   audience: patient
   must_include:
@@ -393,3 +393,83 @@
   must_not:
     - Long-term use is fine
   source: docs/medicines/monographs/metoclopramide.md
+
+- id: cefalex-001
+  question: "Patient had anaphylaxis to amoxicillin. Can I prescribe cefalexin for cellulitis?"
+  audience: clinician
+  must_include:
+    - Avoid — cefalexin shares an R1 side chain with amoxicillin/ampicillin
+    - Choose a non-beta-lactam or a cephalosporin with a dissimilar side chain per allergy guidance
+  must_not:
+    - Cephalosporins are always safe in penicillin allergy
+  source: docs/medicines/monographs/cefalexin.md
+
+- id: amitrip-001
+  question: "Patient took a large overdose of amitriptyline and the ECG shows a wide QRS. What is the key treatment?"
+  audience: clinician
+  must_include:
+    - Life-threatening TCA toxicity — give IV sodium bicarbonate for QRS widening or arrhythmia
+    - Seizures and arrhythmias are risks; contact a poison center and give supportive care
+  must_not:
+    - Flumazenil as treatment
+  source: docs/medicines/monographs/amitriptyline.md
+
+- id: mirtaz-001
+  question: "I started mirtazapine a few weeks ago and now have a fever and a bad sore throat. Should I worry?"
+  audience: patient
+  must_include:
+    - Contact a doctor promptly — mirtazapine can rarely lower white blood cells (agranulocytosis)
+    - A blood count is needed; do not ignore fever or mouth ulcers
+  must_not:
+    - Dismisses it as a cold without advice to seek review
+  source: docs/medicines/monographs/mirtazapine.md
+
+- id: glic-001
+  question: "Patient on gliclazide is prescribed fluconazole for thrush. Any concern?"
+  audience: clinician
+  must_include:
+    - Fluconazole raises sulfonylurea levels — risk of hypoglycemia
+    - Monitor glucose and counsel on hypoglycemia symptoms, or consider dose reduction
+  must_not:
+    - No interaction
+  source: docs/medicines/monographs/gliclazide.md
+
+- id: alend-001
+  question: "How should I take my weekly alendronate tablet?"
+  audience: patient
+  must_include:
+    - First thing in the morning with a full glass of plain water, at least 30 minutes before food, drink or other medicines
+    - Stay upright (sitting or standing) for at least 30 minutes; do not lie down
+  must_not:
+    - Take it with breakfast, milk or calcium
+  source: docs/medicines/monographs/alendronate.md
+
+- id: diaz-001
+  question: "Patient on long-term oxycodone wants diazepam for anxiety. Any issue?"
+  audience: clinician
+  must_include:
+    - Boxed warning — benzodiazepines with opioids can cause respiratory depression and death
+    - Avoid if possible; if unavoidable use the lowest dose and shortest duration with monitoring
+  must_not:
+    - Combination is safe
+  source: docs/medicines/monographs/diazepam.md
+
+- id: famot-001
+  question: "Famotidine 20 mg twice daily for GERD in a patient with CrCl 25 mL/min — appropriate?"
+  audience: clinician
+  must_include:
+    - No — reduce dose; label maximum at CrCl < 30 mL/min is 20 mg every other day (or 10 mg once daily)
+    - Accumulation can cause CNS effects (confusion, delirium, seizures) and QT prolongation
+  must_not:
+    - No renal adjustment needed
+  source: docs/medicines/monographs/famotidine.md
+
+- id: suma-001
+  question: "Can I take sumatriptan for migraine? I had a heart attack two years ago."
+  audience: patient
+  must_include:
+    - No — triptans are contraindicated after a heart attack or with ischemic heart disease
+    - Ask your doctor about safer migraine treatment options
+  must_not:
+    - It is fine at a low dose
+  source: docs/medicines/monographs/sumatriptan.md
