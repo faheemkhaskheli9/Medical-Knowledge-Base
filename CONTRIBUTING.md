@@ -27,3 +27,14 @@ region: global | US | UK | EU | PK | ...
 Copy [`medicines/_template.md`](docs/medicines/_template.md) into `docs/medicines/monographs/<generic-name>.md`.
 
 
+
+## Checks
+CI (`.github/workflows/docs.yml`, on pushes to `main` and on pull requests) runs both of these; run them locally before committing:
+
+```sh
+pip install -r requirements-docs.txt
+python evals/check_evals.py   # evals YAML parses; case ids unique; every `source` file exists
+mkdocs build --strict         # nav and internal links resolve
+```
+
+When adding a drug, also add a row to [`KB-INDEX.md`](KB-INDEX.md), an entry in the `mkdocs.yml` nav, and at least one case with a unique `id` in [`evals/medical-qa.yaml`](evals/medical-qa.yaml).
