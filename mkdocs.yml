@@ -74,26 +74,35 @@ nav:
       - Herb & food interactions: medicines/herb-drug-interactions.md
       - Monographs:
           - ACE inhibitors: medicines/monographs/ace-inhibitors.md
+          - Allopurinol: medicines/monographs/allopurinol.md
           - Amlodipine: medicines/monographs/amlodipine.md
           - Amoxicillin (± clavulanate): medicines/monographs/amoxicillin.md
           - Antipsychotics: medicines/monographs/antipsychotics.md
           - Apixaban: medicines/monographs/apixaban.md
           - Atorvastatin: medicines/monographs/atorvastatin.md
           - Azithromycin: medicines/monographs/azithromycin.md
+          - Bisoprolol (beta-blockers): medicines/monographs/bisoprolol.md
           - Ciprofloxacin (fluoroquinolones): medicines/monographs/ciprofloxacin.md
+          - Clopidogrel: medicines/monographs/clopidogrel.md
           - Corticosteroids (prednisolone): medicines/monographs/corticosteroids.md
+          - Digoxin: medicines/monographs/digoxin.md
           - Doxycycline: medicines/monographs/doxycycline.md
+          - Furosemide (loop diuretics): medicines/monographs/furosemide.md
+          - Gabapentin & pregabalin: medicines/monographs/gabapentinoids.md
           - Ibuprofen: medicines/monographs/ibuprofen.md
           - Insulin types: medicines/monographs/insulin.md
           - Levetiracetam: medicines/monographs/levetiracetam.md
           - Levothyroxine: medicines/monographs/levothyroxine.md
           - Lithium: medicines/monographs/lithium.md
+          - Losartan (ARBs): medicines/monographs/losartan.md
           - Metformin: medicines/monographs/metformin.md
+          - Nitrofurantoin: medicines/monographs/nitrofurantoin.md
           - Omeprazole (PPIs): medicines/monographs/omeprazole.md
           - Opioids: medicines/monographs/opioids.md
           - Paracetamol: medicines/monographs/paracetamol.md
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
           - Sertraline: medicines/monographs/sertraline.md
+          - Spironolactone (MRAs): medicines/monographs/spironolactone.md
           - Valproate: medicines/monographs/valproate.md
           - Warfarin: medicines/monographs/warfarin.md
   - Safety:
