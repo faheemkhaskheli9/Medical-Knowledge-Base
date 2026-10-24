@@ -82,6 +82,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Donepezil, cholinesterase inhibitors, dementia, bradycardia | [docs/medicines/monographs/donepezil.md](docs/medicines/monographs/donepezil.md) |
 | Clarithromycin, macrolides, CYP3A4 interactions, statins and colchicine | [docs/medicines/monographs/clarithromycin.md](docs/medicines/monographs/clarithromycin.md) |
 | Tranexamic acid, antifibrinolytics, heavy menstrual bleeding, IV-only route error | [docs/medicines/monographs/tranexamic-acid.md](docs/medicines/monographs/tranexamic-acid.md) |
+| Valaciclovir (valacyclovir), aciclovir (acyclovir), herpes simplex and zoster, renal dosing, neurotoxicity | [docs/medicines/monographs/valaciclovir.md](docs/medicines/monographs/valaciclovir.md) |
+| Bupropion, smoking cessation, seizure risk, maximum dose, CYP2D6 interactions | [docs/medicines/monographs/bupropion.md](docs/medicines/monographs/bupropion.md) |
+| Zolpidem, zopiclone (Z-drugs), insomnia, complex sleep behaviors, next-day impairment | [docs/medicines/monographs/zolpidem.md](docs/medicines/monographs/zolpidem.md) |
+| Oxybutynin, bladder antimuscarinics, overactive bladder, anticholinergic burden in older adults | [docs/medicines/monographs/oxybutynin.md](docs/medicines/monographs/oxybutynin.md) |
+| Baclofen, spasticity, withdrawal, intrathecal pump, toxicity in renal impairment | [docs/medicines/monographs/baclofen.md](docs/medicines/monographs/baclofen.md) |
+| Sildenafil, tadalafil (PDE5 inhibitors), nitrate contraindication, alpha-blockers | [docs/medicines/monographs/sildenafil.md](docs/medicines/monographs/sildenafil.md) |
+| Diltiazem, verapamil (rate-limiting calcium-channel blockers), AV block, simvastatin dose limit | [docs/medicines/monographs/diltiazem.md](docs/medicines/monographs/diltiazem.md) |
+| Flucloxacillin, anti-staphylococcal penicillin, cholestatic jaundice, paracetamol metabolic acidosis | [docs/medicines/monographs/flucloxacillin.md](docs/medicines/monographs/flucloxacillin.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -118,4 +126,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 72 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 80 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.

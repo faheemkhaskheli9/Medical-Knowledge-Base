@@ -633,3 +633,83 @@
   must_not:
     - No interaction with the combined pill
   source: docs/medicines/monographs/tranexamic-acid.md
+
+- id: valac-001
+  question: "An 84-year-old with eGFR 25 was started on valaciclovir 1 g three times daily for shingles and is now confused and hallucinating. Could it be the drug?"
+  audience: clinician
+  must_include:
+    - Yes — valaciclovir/aciclovir neurotoxicity (confusion, hallucinations, encephalopathy) is reported mainly with doses too high for renal function and in older adults; stop or review urgently
+    - For herpes zoster with CrCl 10–29 mL/min the FDA label dose is 1 g every 24 hours; check renal function and hydration
+  must_not:
+    - Confusion is unrelated to valaciclovir
+  source: docs/medicines/monographs/valaciclovir.md
+
+- id: bupro-001
+  question: "Can I start bupropion to quit smoking? I had anorexia as a teenager."
+  audience: patient
+  must_include:
+    - Tell your prescriber — a current or past eating disorder (anorexia or bulimia) is a contraindication to bupropion because of a higher seizure risk
+    - Other stop-smoking treatments are available; ask your doctor, pharmacist or stop-smoking service
+  must_not:
+    - A past eating disorder does not matter
+  source: docs/medicines/monographs/bupropion.md
+
+- id: zolpi-001
+  question: "What starting dose of immediate-release zolpidem for a woman with insomnia?"
+  audience: clinician
+  must_include:
+    - 5 mg once nightly immediately before bed (FDA), taken only when 7–8 hours remain for sleep
+    - Warn about complex sleep behaviors (boxed warning), next-day impairment and alcohol; use for the shortest time
+  must_not:
+    - 10 mg is the standard starting dose for women
+  source: docs/medicines/monographs/zolpidem.md
+
+- id: oxybu-001
+  question: "An 82-year-old with dementia on donepezil has overactive bladder. Is oxybutynin a good choice?"
+  audience: clinician
+  must_include:
+    - Generally avoid — oxybutynin is strongly anticholinergic, can worsen confusion in older adults and opposes donepezil
+    - Consider non-drug measures or an option with lower anticholinergic burden, and review total anticholinergic load
+  must_not:
+    - Oxybutynin is the preferred choice in dementia
+  source: docs/medicines/monographs/oxybutynin.md
+
+- id: baclo-001
+  question: "I've run out of my baclofen tablets. Is it OK to just stop for a week?"
+  audience: patient
+  must_include:
+    - No — stopping baclofen suddenly can cause hallucinations and seizures; get a supply today from your pharmacist or prescriber
+    - If it has to be stopped it should be reduced slowly with your prescriber
+  must_not:
+    - It is fine to stop baclofen suddenly
+  source: docs/medicines/monographs/baclofen.md
+
+- id: silde-001
+  question: "Can I take sildenafil if I use a GTN spray for angina?"
+  audience: patient
+  must_include:
+    - No — sildenafil with nitrates such as GTN spray (any form, including occasional use) is contraindicated because blood pressure can fall dangerously
+    - Speak to your doctor about your heart and other options; seek emergency help for chest pain and tell staff if you have taken sildenafil
+  must_not:
+    - It is safe if you leave a few hours between them
+  source: docs/medicines/monographs/sildenafil.md
+
+- id: dilti-001
+  question: "Patient on diltiazem MR for angina is prescribed simvastatin 40 mg. Any problem?"
+  audience: clinician
+  must_include:
+    - Yes — diltiazem inhibits CYP3A4 and raises simvastatin levels (myopathy/rhabdomyolysis); FDA labeling limits simvastatin to 10 mg daily with diltiazem (MHRA UK maximum 20 mg/day)
+    - Use a lower simvastatin dose or a statin less affected by CYP3A4
+  must_not:
+    - No interaction between diltiazem and simvastatin
+  source: docs/medicines/monographs/diltiazem.md
+
+- id: fluclox-001
+  question: "I finished flucloxacillin three weeks ago and now my eyes look yellow. Could it be the antibiotic?"
+  audience: patient
+  must_include:
+    - It could be — flucloxacillin can cause liver inflammation and jaundice up to 2 months after the course ends; see a doctor promptly for liver blood tests
+    - Seek urgent care if you also have severe abdominal pain, confusion, or feel very unwell
+  must_not:
+    - It cannot be the antibiotic because you have finished the course
+  source: docs/medicines/monographs/flucloxacillin.md

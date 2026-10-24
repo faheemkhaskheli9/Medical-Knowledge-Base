@@ -85,7 +85,9 @@ nav:
           - Aspirin (low-dose): medicines/monographs/aspirin.md
           - Atorvastatin: medicines/monographs/atorvastatin.md
           - Azithromycin: medicines/monographs/azithromycin.md
+          - Baclofen: medicines/monographs/baclofen.md
           - Bisoprolol (beta-blockers): medicines/monographs/bisoprolol.md
+          - Bupropion: medicines/monographs/bupropion.md
           - Carbamazepine: medicines/monographs/carbamazepine.md
           - Carbimazole (antithyroid): medicines/monographs/carbimazole.md
           - Cefalexin (cephalexin): medicines/monographs/cefalexin.md
@@ -99,12 +101,14 @@ nav:
           - Dabigatran: medicines/monographs/dabigatran.md
           - Diazepam (benzodiazepines): medicines/monographs/diazepam.md
           - Digoxin: medicines/monographs/digoxin.md
+          - Diltiazem (rate-limiting CCBs): medicines/monographs/diltiazem.md
           - Donepezil (cholinesterase inhibitors): medicines/monographs/donepezil.md
           - Doxycycline: medicines/monographs/doxycycline.md
           - Enoxaparin (LMWH): medicines/monographs/enoxaparin.md
           - Famotidine (H2 antagonists): medicines/monographs/famotidine.md
           - Ferrous sulfate (oral iron): medicines/monographs/ferrous-sulfate.md
           - Finasteride (5-alpha-reductase inhibitors): medicines/monographs/finasteride.md
+          - Flucloxacillin: medicines/monographs/flucloxacillin.md
           - Fluconazole: medicines/monographs/fluconazole.md
           - Furosemide (loop diuretics): medicines/monographs/furosemide.md
           - Gabapentin & pregabalin: medicines/monographs/gabapentinoids.md
@@ -127,12 +131,14 @@ nav:
           - Omeprazole (PPIs): medicines/monographs/omeprazole.md
           - Ondansetron: medicines/monographs/ondansetron.md
           - Opioids: medicines/monographs/opioids.md
+          - Oxybutynin (bladder antimuscarinics): medicines/monographs/oxybutynin.md
           - Paracetamol: medicines/monographs/paracetamol.md
           - Phenytoin: medicines/monographs/phenytoin.md
           - Rivaroxaban: medicines/monographs/rivaroxaban.md
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
           - Sertraline: medicines/monographs/sertraline.md
           - SGLT2 inhibitors: medicines/monographs/sglt2-inhibitors.md
+          - Sildenafil (PDE5 inhibitors): medicines/monographs/sildenafil.md
           - Sitagliptin (DPP-4 inhibitors): medicines/monographs/sitagliptin.md
           - Spironolactone (MRAs): medicines/monographs/spironolactone.md
           - Sumatriptan (triptans): medicines/monographs/sumatriptan.md
@@ -142,9 +148,11 @@ nav:
           - Topiramate: medicines/monographs/topiramate.md
           - Tranexamic acid: medicines/monographs/tranexamic-acid.md
           - Trimethoprim (co-trimoxazole): medicines/monographs/trimethoprim.md
+          - Valaciclovir (aciclovir): medicines/monographs/valaciclovir.md
           - Valproate: medicines/monographs/valproate.md
           - Venlafaxine (SNRIs): medicines/monographs/venlafaxine.md
           - Warfarin: medicines/monographs/warfarin.md
+          - Zolpidem & zopiclone (Z-drugs): medicines/monographs/zolpidem.md
   - Safety:
       - Major interactions: interactions/major-interactions.md
       - Allergy & cross-reactivity: allergy/cross-reactivity.md
