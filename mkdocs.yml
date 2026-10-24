@@ -79,11 +79,13 @@ nav:
           - Amoxicillin (± clavulanate): medicines/monographs/amoxicillin.md
           - Antipsychotics: medicines/monographs/antipsychotics.md
           - Apixaban: medicines/monographs/apixaban.md
+          - Aspirin (low-dose): medicines/monographs/aspirin.md
           - Atorvastatin: medicines/monographs/atorvastatin.md
           - Azithromycin: medicines/monographs/azithromycin.md
           - Bisoprolol (beta-blockers): medicines/monographs/bisoprolol.md
           - Ciprofloxacin (fluoroquinolones): medicines/monographs/ciprofloxacin.md
           - Clopidogrel: medicines/monographs/clopidogrel.md
+          - Colchicine: medicines/monographs/colchicine.md
           - Corticosteroids (prednisolone): medicines/monographs/corticosteroids.md
           - Digoxin: medicines/monographs/digoxin.md
           - Doxycycline: medicines/monographs/doxycycline.md
@@ -91,18 +93,24 @@ nav:
           - Gabapentin & pregabalin: medicines/monographs/gabapentinoids.md
           - Ibuprofen: medicines/monographs/ibuprofen.md
           - Insulin types: medicines/monographs/insulin.md
+          - Lamotrigine: medicines/monographs/lamotrigine.md
           - Levetiracetam: medicines/monographs/levetiracetam.md
           - Levothyroxine: medicines/monographs/levothyroxine.md
           - Lithium: medicines/monographs/lithium.md
           - Losartan (ARBs): medicines/monographs/losartan.md
           - Metformin: medicines/monographs/metformin.md
+          - Methotrexate (weekly): medicines/monographs/methotrexate.md
           - Nitrofurantoin: medicines/monographs/nitrofurantoin.md
           - Omeprazole (PPIs): medicines/monographs/omeprazole.md
+          - Ondansetron: medicines/monographs/ondansetron.md
           - Opioids: medicines/monographs/opioids.md
           - Paracetamol: medicines/monographs/paracetamol.md
           - Salbutamol (albuterol): medicines/monographs/salbutamol.md
           - Sertraline: medicines/monographs/sertraline.md
+          - SGLT2 inhibitors: medicines/monographs/sglt2-inhibitors.md
           - Spironolactone (MRAs): medicines/monographs/spironolactone.md
+          - Thiazide diuretics: medicines/monographs/thiazides.md
+          - Trimethoprim (co-trimoxazole): medicines/monographs/trimethoprim.md
           - Valproate: medicines/monographs/valproate.md
           - Warfarin: medicines/monographs/warfarin.md
   - Safety:

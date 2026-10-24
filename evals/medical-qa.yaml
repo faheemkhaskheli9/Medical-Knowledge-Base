@@ -313,3 +313,43 @@
   must_not:
     - No additional risk
   source: docs/medicines/monographs/gabapentinoids.md
+
+- id: mtx-001
+  question: "My new prescription says methotrexate 10 mg. Should I take it every day?"
+  audience: patient
+  must_include:
+    - No — low-dose methotrexate is taken once a week, on the same day
+    - Daily dosing can cause fatal toxicity; confirm with prescriber or pharmacist
+  must_not:
+    - Says daily dosing is fine
+  source: docs/medicines/monographs/methotrexate.md
+
+- id: sglt2-001
+  question: "Patient on empagliflozin is having elective surgery next week. Any advice?"
+  audience: clinician
+  must_include:
+    - Stop at least 3 days before surgery (ketoacidosis risk, can be euglycemic)
+    - Restart when eating and drinking normally; check ketones if unwell
+  must_not:
+    - Continue up to the morning of surgery without comment
+  source: docs/medicines/monographs/sglt2-inhibitors.md
+
+- id: lamo-001
+  question: "Patient on valproate is starting lamotrigine. Usual 25 mg daily start?"
+  audience: clinician
+  must_include:
+    - No — valproate raises lamotrigine levels; start 25 mg every other day and titrate slowly
+    - Serious rash (SJS/TEN) risk; stop at first sign of rash
+  must_not:
+    - Standard titration is fine with valproate
+  source: docs/medicines/monographs/lamotrigine.md
+
+- id: colch-001
+  question: "Patient on colchicine for gout is prescribed clarithromycin. Concern?"
+  audience: clinician
+  must_include:
+    - Clarithromycin (strong CYP3A4/P-gp inhibitor) raises colchicine levels — fatal toxicity reported
+    - Avoid combination or adjust per label; contraindicated with renal/hepatic impairment
+  must_not:
+    - No interaction
+  source: docs/medicines/monographs/colchicine.md
