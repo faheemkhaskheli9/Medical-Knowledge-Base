@@ -66,6 +66,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Diazepam, benzodiazepines, opioid co-prescribing, withdrawal | [docs/medicines/monographs/diazepam.md](docs/medicines/monographs/diazepam.md) |
 | Famotidine, H2-receptor antagonists, renal dosing | [docs/medicines/monographs/famotidine.md](docs/medicines/monographs/famotidine.md) |
 | Sumatriptan, triptans, migraine, cardiovascular contraindications | [docs/medicines/monographs/sumatriptan.md](docs/medicines/monographs/sumatriptan.md) |
+| Rivaroxaban, factor Xa inhibitors, renal dosing, take with food | [docs/medicines/monographs/rivaroxaban.md](docs/medicines/monographs/rivaroxaban.md) |
+| Carbamazepine, HLA-B*15:02, enzyme induction, trigeminal neuralgia | [docs/medicines/monographs/carbamazepine.md](docs/medicines/monographs/carbamazepine.md) |
+| Phenytoin, levels, non-linear kinetics, IV infusion rate | [docs/medicines/monographs/phenytoin.md](docs/medicines/monographs/phenytoin.md) |
+| Amiodarone, pulmonary/thyroid/liver toxicity, warfarin and digoxin interactions | [docs/medicines/monographs/amiodarone.md](docs/medicines/monographs/amiodarone.md) |
+| Venlafaxine, duloxetine (SNRIs), blood pressure, discontinuation | [docs/medicines/monographs/venlafaxine.md](docs/medicines/monographs/venlafaxine.md) |
+| Carbimazole, methimazole, propylthiouracil (antithyroid), agranulocytosis | [docs/medicines/monographs/carbimazole.md](docs/medicines/monographs/carbimazole.md) |
+| Finasteride, dutasteride (5-alpha-reductase inhibitors), PSA | [docs/medicines/monographs/finasteride.md](docs/medicines/monographs/finasteride.md) |
+| Ferrous sulfate, oral iron, iron-deficiency anemia, iron overdose | [docs/medicines/monographs/ferrous-sulfate.md](docs/medicines/monographs/ferrous-sulfate.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -102,4 +110,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 56 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 64 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.

@@ -473,3 +473,83 @@
   must_not:
     - It is fine at a low dose
   source: docs/medicines/monographs/sumatriptan.md
+
+- id: rivar-001
+  question: "I take rivaroxaban 20 mg for atrial fibrillation. Does it matter if I take it on an empty stomach?"
+  audience: patient
+  must_include:
+    - Yes — take the 15 mg and 20 mg doses with food (the evening meal for AF), because absorption is reduced without food
+    - Do not stop it without speaking to your prescriber
+  must_not:
+    - Food makes no difference for any dose
+  source: docs/medicines/monographs/rivaroxaban.md
+
+- id: carba-001
+  question: "Planning to start carbamazepine for epilepsy in a patient of Han Chinese ancestry. Any test needed first?"
+  audience: clinician
+  must_include:
+    - Test for HLA-B*15:02 before starting — strong association with SJS/TEN in people of Asian ancestry
+    - If positive, avoid carbamazepine unless benefit clearly outweighs risk; also check a baseline full blood count
+  must_not:
+    - No testing is needed
+  source: docs/medicines/monographs/carbamazepine.md
+
+- id: phen-001
+  question: "Phenytoin level is 8 mcg/mL and seizures continue. Can I double the daily dose?"
+  audience: clinician
+  must_include:
+    - No — phenytoin has non-linear (saturable) kinetics, so small dose increases can cause large rises in level and toxicity
+    - Increase in small steps, wait 7–10 days for steady state, recheck the level; consider albumin and free level
+  must_not:
+    - Doubling the dose doubles the level
+  source: docs/medicines/monographs/phenytoin.md
+
+- id: amio-001
+  question: "Patient stable on warfarin is starting amiodarone. What should I do with the warfarin?"
+  audience: clinician
+  must_include:
+    - Amiodarone raises INR markedly — reduce warfarin dose by one-third to one-half and monitor INR closely
+    - The interaction persists for weeks to months after stopping amiodarone (long half-life)
+  must_not:
+    - No interaction
+  source: docs/medicines/monographs/amiodarone.md
+
+- id: venla-001
+  question: "I want to stop my venlafaxine today because I feel better. Is that OK?"
+  audience: patient
+  must_include:
+    - Do not stop suddenly — talk to your prescriber, who will reduce the dose gradually
+    - Stopping abruptly can cause discontinuation symptoms such as dizziness, electric-shock sensations, nausea and anxiety
+  must_not:
+    - Stop it straight away
+  source: docs/medicines/monographs/venlafaxine.md
+
+- id: carbim-001
+  question: "I take carbimazole and now have a sore throat and fever. What should I do?"
+  audience: patient
+  must_include:
+    - Stop carbimazole and get medical advice and an urgent blood count today — it can rarely cause agranulocytosis
+    - Do not wait to see if it settles
+  must_not:
+    - Just a cold, carry on as normal
+  source: docs/medicines/monographs/carbimazole.md
+
+- id: finas-001
+  question: "My PSA is 2.0 ng/mL after a year on finasteride 5 mg. Is that normal?"
+  audience: clinician
+  must_include:
+    - Finasteride lowers PSA by about 50% — double the value (about 4.0 ng/mL) before comparing with normal ranges
+    - Any confirmed rise from the on-treatment baseline needs evaluation for prostate cancer
+  must_not:
+    - Interpret the PSA without adjustment
+  source: docs/medicines/monographs/finasteride.md
+
+- id: iron-001
+  question: "My toddler may have swallowed several of my iron tablets. What should I do?"
+  audience: patient
+  must_include:
+    - Treat as an emergency — call a poison center or emergency services now, even if the child seems well
+    - Iron overdose can be fatal in children; early stomach symptoms can be followed by apparent recovery and then deterioration
+  must_not:
+    - Wait and see if symptoms develop
+  source: docs/medicines/monographs/ferrous-sulfate.md
