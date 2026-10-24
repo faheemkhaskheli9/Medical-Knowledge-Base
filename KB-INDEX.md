@@ -42,6 +42,14 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Nitrofurantoin, uncomplicated cystitis | [docs/medicines/monographs/nitrofurantoin.md](docs/medicines/monographs/nitrofurantoin.md) |
 | Digoxin, levels and toxicity | [docs/medicines/monographs/digoxin.md](docs/medicines/monographs/digoxin.md) |
 | Spironolactone, eplerenone (MRAs) | [docs/medicines/monographs/spironolactone.md](docs/medicines/monographs/spironolactone.md) |
+| Methotrexate (weekly dosing), DMARD monitoring | [docs/medicines/monographs/methotrexate.md](docs/medicines/monographs/methotrexate.md) |
+| Aspirin (low-dose), antiplatelet, primary prevention | [docs/medicines/monographs/aspirin.md](docs/medicines/monographs/aspirin.md) |
+| Empagliflozin, dapagliflozin (SGLT2 inhibitors), euglycemic DKA | [docs/medicines/monographs/sglt2-inhibitors.md](docs/medicines/monographs/sglt2-inhibitors.md) |
+| Indapamide, chlortalidone, hydrochlorothiazide (thiazides) | [docs/medicines/monographs/thiazides.md](docs/medicines/monographs/thiazides.md) |
+| Trimethoprim, co-trimoxazole | [docs/medicines/monographs/trimethoprim.md](docs/medicines/monographs/trimethoprim.md) |
+| Lamotrigine, titration, rash | [docs/medicines/monographs/lamotrigine.md](docs/medicines/monographs/lamotrigine.md) |
+| Ondansetron, antiemetics, QT | [docs/medicines/monographs/ondansetron.md](docs/medicines/monographs/ondansetron.md) |
+| Colchicine, gout flares | [docs/medicines/monographs/colchicine.md](docs/medicines/monographs/colchicine.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |
@@ -78,4 +86,4 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 4. Cite the actual retrieved repository file(s) and current authoritative sources. Distinguish clinical facts from preliminary notes.
 5. If a requested topic is not covered or the repository cannot be retrieved, say so. Do not claim this repository was consulted when it was not.
 
-**Coverage note:** This repository currently has 23 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
+**Coverage note:** This repository currently has 40 drug monographs and two condition pages; other pages are summaries. Absence of a medication or disease is not evidence of safety or lack of guidance. Do not infer exhaustive coverage.
