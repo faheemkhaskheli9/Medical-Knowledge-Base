@@ -33,6 +33,15 @@ This is a routing index, not a clinical guideline. Read [AGENTS.md](AGENTS.md) f
 | Levetiracetam | [docs/medicines/monographs/levetiracetam.md](docs/medicines/monographs/levetiracetam.md) |
 | Antipsychotics, clozapine | [docs/medicines/monographs/antipsychotics.md](docs/medicines/monographs/antipsychotics.md) |
 | Lithium | [docs/medicines/monographs/lithium.md](docs/medicines/monographs/lithium.md) |
+| Furosemide, loop diuretics, bumetanide | [docs/medicines/monographs/furosemide.md](docs/medicines/monographs/furosemide.md) |
+| Bisoprolol, metoprolol, beta-blockers | [docs/medicines/monographs/bisoprolol.md](docs/medicines/monographs/bisoprolol.md) |
+| Clopidogrel, P2Y12 inhibitors, CYP2C19 | [docs/medicines/monographs/clopidogrel.md](docs/medicines/monographs/clopidogrel.md) |
+| Losartan, valsartan, candesartan (ARBs) | [docs/medicines/monographs/losartan.md](docs/medicines/monographs/losartan.md) |
+| Gabapentin, pregabalin (gabapentinoids) | [docs/medicines/monographs/gabapentinoids.md](docs/medicines/monographs/gabapentinoids.md) |
+| Allopurinol, gout urate-lowering, HLA-B*58:01 | [docs/medicines/monographs/allopurinol.md](docs/medicines/monographs/allopurinol.md) |
+| Nitrofurantoin, uncomplicated cystitis | [docs/medicines/monographs/nitrofurantoin.md](docs/medicines/monographs/nitrofurantoin.md) |
+| Digoxin, levels and toxicity | [docs/medicines/monographs/digoxin.md](docs/medicines/monographs/digoxin.md) |
+| Spironolactone, eplerenone (MRAs) | [docs/medicines/monographs/spironolactone.md](docs/medicines/monographs/spironolactone.md) |
 | New drug content format | [docs/medicines/_template.md](docs/medicines/_template.md), [CONTRIBUTING.md](CONTRIBUTING.md) |
 | Pregnancy and breastfeeding | [docs/special-populations/pregnancy-lactation.md](docs/special-populations/pregnancy-lactation.md) |
 | Children and adolescents | [docs/special-populations/pediatrics.md](docs/special-populations/pediatrics.md) |

@@ -263,3 +263,53 @@
   must_not:
     - Safe without monitoring
   source: docs/medicines/monographs/lithium.md
+
+- id: clop-001
+  question: "Patient on clopidogrel after a stent needs a PPI for reflux. Which one?"
+  audience: clinician
+  must_include:
+    - Avoid omeprazole/esomeprazole — reduce clopidogrel activation (CYP2C19)
+    - Pantoprazole preferred
+  must_not:
+    - Recommends omeprazole without warning
+  source: docs/medicines/monographs/clopidogrel.md
+
+- id: allo-001
+  question: "Patient on azathioprine needs allopurinol for gout. Can I start the usual dose?"
+  audience: clinician
+  must_include:
+    - Major interaction — severe myelosuppression
+    - Avoid, or reduce azathioprine to 25% with specialist monitoring
+  must_not:
+    - No interaction
+  source: docs/medicines/monographs/allopurinol.md
+
+- id: nitro-001
+  question: "Can nitrofurantoin treat pyelonephritis with fever and flank pain?"
+  audience: clinician
+  must_include:
+    - No — does not reach therapeutic tissue or blood levels
+    - Use an agent suitable for upper UTI
+  must_not:
+    - Recommends nitrofurantoin for pyelonephritis
+  source: docs/medicines/monographs/nitrofurantoin.md
+
+- id: dig-001
+  question: "Patient on digoxin 125 micrograms daily is starting amiodarone. What should change?"
+  audience: clinician
+  must_include:
+    - Amiodarone roughly doubles digoxin levels — halve the digoxin dose
+    - Monitor levels, heart rate and potassium
+  must_not:
+    - No dose change needed
+  source: docs/medicines/monographs/digoxin.md
+
+- id: gaba-001
+  question: "Is it safe to add pregabalin for an older adult already on morphine?"
+  audience: clinician
+  must_include:
+    - Risk of respiratory depression and sedation with opioids (FDA 2019)
+    - Start low, adjust for renal function, monitor
+  must_not:
+    - No additional risk
+  source: docs/medicines/monographs/gabapentinoids.md
