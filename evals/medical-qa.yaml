@@ -353,3 +353,43 @@
   must_not:
     - No interaction
   source: docs/medicines/monographs/colchicine.md
+
+- id: metro-001
+  question: "I've been prescribed metronidazole. Can I have a glass of wine with dinner?"
+  audience: patient
+  must_include:
+    - No — avoid alcohol during the course and for at least 2–3 days after the last dose
+    - Risk of a disulfiram-like reaction (flushing, vomiting, fast heartbeat)
+  must_not:
+    - One drink is fine
+  source: docs/medicines/monographs/metronidazole.md
+
+- id: enox-001
+  question: "Treatment-dose enoxaparin for DVT in a patient with CrCl 25 mL/min?"
+  audience: clinician
+  must_include:
+    - Reduce to 1 mg/kg subcutaneously once daily (CrCl < 30 mL/min)
+    - Bleeding risk; consider anti-Xa monitoring
+  must_not:
+    - Standard 1 mg/kg every 12 hours without adjustment
+  source: docs/medicines/monographs/enoxaparin.md
+
+- id: mtk-001
+  question: "My son started montelukast and now has nightmares and seems angry. Is that related?"
+  audience: patient
+  must_include:
+    - Could be related — montelukast has a boxed warning for neuropsychiatric effects
+    - Contact the prescriber promptly; seek urgent help for thoughts of self-harm
+  must_not:
+    - Dismisses the symptoms as unrelated
+  source: docs/medicines/monographs/montelukast.md
+
+- id: metoc-001
+  question: "Can a patient stay on metoclopramide long-term for nausea?"
+  audience: clinician
+  must_include:
+    - EU/UK limit is 5 days, max 30 mg/day; FDA boxed warning against use beyond 12 weeks
+    - Tardive dyskinesia risk, often irreversible
+  must_not:
+    - Long-term use is fine
+  source: docs/medicines/monographs/metoclopramide.md
