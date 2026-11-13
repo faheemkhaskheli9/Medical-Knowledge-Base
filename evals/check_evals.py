@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-"""Validate the evaluation set.
-
-Loads every evals/*.yaml / *.yml file and fails (exit 1) on:
-- YAML parse errors, or a file that is not a list of cases
-- cases missing a required field (id, question, audience, must_include, source)
-- duplicate case ids (across all files)
-- `source` paths that do not exist (relative to the repository root)
+"""Validate medical evaluation YAML cases before publishing.
 
 Usage: python evals/check_evals.py
+
+Validation covers required fields, duplicate identifiers, nonempty expected phrases,
+source containment within the repository, and malformed YAML types.
 """
 import sys
 from pathlib import Path
@@ -17,6 +14,41 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 EVALS = ROOT / "evals"
 REQUIRED = ("id", "question", "audience", "must_include", "source")
+
+
+def validate_case(case, where, seen, root=ROOT):
+    """Return errors for one case; do not throw on malformed YAML values."""
+    errors = []
+    if not isinstance(case, dict):
+        return [f"{where}: expected a mapping"]
+    for key in ("id", "question", "audience", "source"):
+        value = case.get(key)
+        if not isinstance(value, str) or not value.strip():
+            errors.append(f"{where}: '{key}' must be a non-empty string")
+    for key in ("must_include", "must_not"):
+        if key not in case and key == "must_not":
+            continue
+        value = case.get(key)
+        if not isinstance(value, list) or (key == "must_include" and not value):
+            errors.append(f"{where}: '{key}' must be {'a non-empty' if key == 'must_include' else 'a'} list")
+        elif any(not isinstance(item, str) or not item.strip() for item in value):
+            errors.append(f"{where}: '{key}' entries must be non-empty strings")
+    cid = case.get("id")
+    if isinstance(cid, str) and cid.strip():
+        if cid in seen:
+            errors.append(f"{where}: duplicate id {cid!r} (first in {seen[cid]})")
+        else:
+            seen[cid] = where
+    source = case.get("source")
+    if isinstance(source, str) and source.strip():
+        # Resolve symlinks and traversal before testing existence.
+        root_resolved = root.resolve()
+        target = (root_resolved / source).resolve()
+        if not target.is_relative_to(root_resolved):
+            errors.append(f"{where}: source must remain inside repository: {source}")
+        elif not target.is_file():
+            errors.append(f"{where}: source does not exist: {source}")
+    return errors
 
 
 def main() -> int:
@@ -30,35 +62,16 @@ def main() -> int:
         rel = path.relative_to(ROOT)
         try:
             data = yaml.safe_load(path.read_text(encoding="utf-8"))
-        except yaml.YAMLError as exc:
-            errors.append(f"{rel}: YAML parse error: {exc}")
+        except (yaml.YAMLError, UnicodeError, OSError) as exc:
+            errors.append(f"{rel}: cannot read/parse YAML: {exc}")
             continue
         if not isinstance(data, list):
             errors.append(f"{rel}: expected a list of cases, got {type(data).__name__}")
             continue
         for i, case in enumerate(data):
             where = f"{rel}: case #{i + 1}"
-            if not isinstance(case, dict):
-                errors.append(f"{where}: expected a mapping")
-                continue
             total += 1
-            cid = case.get("id")
-            if cid is not None:
-                where = f"{rel}: {cid}"
-            for key in REQUIRED:
-                if not case.get(key):
-                    errors.append(f"{where}: missing or empty '{key}'")
-            for key in ("must_include", "must_not"):
-                if key in case and not isinstance(case[key], list):
-                    errors.append(f"{where}: '{key}' must be a list")
-            if cid is not None:
-                if cid in seen:
-                    errors.append(f"{where}: duplicate id (first in {seen[cid]})")
-                else:
-                    seen[cid] = rel
-            src = case.get("source")
-            if isinstance(src, str) and src and not (ROOT / src).is_file():
-                errors.append(f"{where}: source does not exist: {src}")
+            errors.extend(validate_case(case, where, seen))
     for err in errors:
         print(f"ERROR {err}", file=sys.stderr)
     if errors:
