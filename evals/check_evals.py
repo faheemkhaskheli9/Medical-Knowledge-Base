@@ -42,12 +42,16 @@ def validate_case(case, where, seen, root=ROOT):
     source = case.get("source")
     if isinstance(source, str) and source.strip():
         # Resolve symlinks and traversal before testing existence.
-        root_resolved = root.resolve()
-        target = (root_resolved / source).resolve()
-        if not target.is_relative_to(root_resolved):
-            errors.append(f"{where}: source must remain inside repository: {source}")
-        elif not target.is_file():
-            errors.append(f"{where}: source does not exist: {source}")
+        source_path = Path(source)
+        if source_path.is_absolute():
+            errors.append(f"{where}: source must be relative to repository: {source}")
+        else:
+            root_resolved = root.resolve()
+            target = (root_resolved / source_path).resolve()
+            if not target.is_relative_to(root_resolved):
+                errors.append(f"{where}: source must remain inside repository: {source}")
+            elif not target.is_file():
+                errors.append(f"{where}: source does not exist: {source}")
     return errors
 
 

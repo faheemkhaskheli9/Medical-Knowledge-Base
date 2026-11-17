@@ -46,6 +46,9 @@ class EvalCaseValidationTests(unittest.TestCase):
     def test_missing_source(self):
         self.assertIn("does not exist", " ".join(self.check({**self.valid, "source": "missing.md"})))
 
+    def test_absolute_source_inside_repository_is_rejected(self):
+        self.assertIn("must be relative", " ".join(self.check({**self.valid, "source": str(self.root / "source.md")})))
+
     def test_parent_traversal_is_rejected(self):
         self.assertIn("inside repository", " ".join(self.check({**self.valid, "source": "../outside.md"})))
 
