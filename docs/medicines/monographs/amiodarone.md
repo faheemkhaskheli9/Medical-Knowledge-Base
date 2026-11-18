@@ -24,7 +24,7 @@ US oral label: life-threatening recurrent ventricular arrhythmias (ventricular f
 | Step-down | 600–800 mg/day for 1 month |
 | Maintenance | Usually 400 mg/day; use the lowest effective dose |
 
-- Start in hospital with continuous ECG monitoring and resuscitation available (boxed warning). UK BNF regimens differ — check the BNF.
+- Start in hospital with continuous ECG monitoring and resuscitation available (boxed warning). UK SmPC regimen: 200 mg three times daily for 1 week, then 200 mg twice daily for 1 week, then 200 mg daily or less. Take consistently with regard to meals; split doses of 1000 mg/day or more with meals.
 - IV dosing: follow the label and resuscitation or local protocols; infuse through a central line where possible for longer infusions.
 - No renal adjustment. Hepatic impairment: use with caution and monitor.
 
@@ -32,7 +32,7 @@ US oral label: life-threatening recurrent ventricular arrhythmias (ventricular f
 - Cardiogenic shock.
 - Sick sinus syndrome, second- or third-degree AV block, or bradycardia causing syncope, **unless a functioning pacemaker** is present.
 - Hypersensitivity to amiodarone or its components, **including iodine**.
-- Some non-US labels also contraindicate thyroid dysfunction, hepatitis or interstitial lung abnormalities — check local labeling.
+- UK SmPC (tablets) also: sinus bradycardia and sino-atrial block; **evidence or history of thyroid dysfunction**; use with **drugs that can cause torsades de pointes**; pregnancy (except in exceptional circumstances); breastfeeding. IV adds severe respiratory failure, circulatory collapse or severe hypotension, and (benzyl alcohol) neonates.
 
 ## Warnings / boxed warnings
 - **Pulmonary toxicity** (boxed): hypersensitivity pneumonitis or interstitial/alveolar pneumonitis, reported in up to 17% in some series and fatal in about 10% of those cases. Baseline chest X-ray and pulmonary function tests; investigate new cough or breathlessness.
@@ -65,7 +65,7 @@ See [major interactions](../../interactions/major-interactions.md).
 Can cause fetal harm: neonatal hypo- or hyperthyroidism, bradycardia, neurodevelopmental problems, preterm birth and growth restriction; amiodarone crosses the placenta. Use only when no alternative, with specialist advice. **Breastfeeding is not recommended** during treatment (label). See [pregnancy and lactation](../../special-populations/pregnancy-lactation.md).
 
 ## Monitoring
-Baseline: ECG, chest X-ray, pulmonary function, liver function, thyroid function, electrolytes (correct low potassium and magnesium). Ongoing: liver and thyroid function periodically (commonly every 6 months), ECG, eye review for visual symptoms, new respiratory symptoms, INR or digoxin level if co-prescribed.
+Baseline: ECG, chest X-ray, pulmonary function, liver function, thyroid function, electrolytes (correct low potassium, magnesium and calcium first). Ongoing: liver and thyroid function periodically (commonly every 6 months), ECG, eye review for visual symptoms, new respiratory symptoms, INR or digoxin level if co-prescribed.
 
 ## Overdose / antidote
 Bradycardia, hypotension, AV block, QT prolongation and arrhythmias; possible liver injury. Supportive care with ECG monitoring; not removed by dialysis. Contact a poison center ([antidotes](../../toxicology/antidotes.md)).

@@ -16,8 +16,10 @@ region: global
 ## Dosing (adult)
 | Indication | Dose |
 |------------|------|
+| Highly emetogenic chemotherapy (e.g. cisplatin ≥ 50 mg/m2), oral | Single 24 mg dose 30 min before chemotherapy (FDA) |
 | Chemotherapy-induced nausea/vomiting (moderately emetogenic), oral | 8 mg 30 min before chemotherapy, 8 mg 8 h later, then 8 mg every 12 h for 1–2 days after (FDA) |
 | Postoperative nausea/vomiting prevention | 4 mg IV immediately before induction of anesthesia (or postoperatively), or 16 mg PO 1 h before induction (FDA) |
+| Radiotherapy, oral | 8 mg 1–2 h before each fraction; abdominal single high-dose or daily fractions: then 8 mg every 8 h (FDA) |
 | Any IV dose | **Single IV dose must not exceed 16 mg** (QT prolongation; FDA 2012) |
 | Severe hepatic impairment (Child-Pugh C) | Max 8 mg/day total |
 

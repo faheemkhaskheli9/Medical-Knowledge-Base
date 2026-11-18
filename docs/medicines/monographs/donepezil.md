@@ -17,7 +17,7 @@ region: global (23 mg dose is US-only)
 | Source | Dose |
 |--------|------|
 | FDA, mild to moderate | 5 mg once daily in the evening at bedtime; may increase to 10 mg once daily after 4–6 weeks at 5 mg |
-| FDA, moderate to severe | 10 mg once daily; 23 mg once daily only after at least 3 months at 10 mg (do not split, crush or chew the 23 mg tablet) |
+| FDA, moderate to severe | Start 5 mg in the evening and titrate as above to 10 mg once daily; 23 mg once daily only after at least 3 months at 10 mg (do not split, crush or chew the 23 mg tablet) |
 | UK SmPC | 5 mg once daily in the evening for at least one month, then may increase to 10 mg once daily; **maximum 10 mg daily** |
 
 - Can be taken with or without food.

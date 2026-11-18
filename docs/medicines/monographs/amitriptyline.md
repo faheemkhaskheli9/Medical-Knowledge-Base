@@ -27,8 +27,9 @@ region: global (low-dose use for pain is common in UK practice)
 - Hepatic impairment: use with caution; avoid in severe impairment (BNF).
 
 ## Contraindications
-- Use of an **MAOI** within the past 14 days (serotonin syndrome); linezolid or IV methylene blue.
-- **Recovery phase after myocardial infarction**; heart block, arrhythmias.
+- Use of an **MAOI** at the same time or within the past 14 days (serotonin syndrome); linezolid or IV methylene blue.
+- Cisapride (QT prolongation, FDA).
+- **Acute recovery phase after myocardial infarction** (FDA: not recommended). UK SmPC/BNF also list heart block and arrhythmias.
 - Hypersensitivity to amitriptyline. BNF also lists mania and severe liver disease.
 
 ## Warnings

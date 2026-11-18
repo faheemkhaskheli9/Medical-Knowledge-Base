@@ -17,8 +17,8 @@ region: global
 ## Dosing (oral, adult men)
 | Indication | Dose |
 |------------|------|
-| BPH (Proscar) | 5 mg once daily, with or without food. Benefit may take 6 months or more |
-| Male pattern hair loss (Propecia) | 1 mg once daily (UK: men aged 18–41) |
+| BPH (Proscar) | 5 mg once daily, with or without food, alone or with doxazosin. Benefit may take 6 months or more |
+| Male pattern hair loss (Propecia) | 1 mg once daily (UK: men aged 18–41); 3–6 months before benefit is seen; effect reverses within 12 months of stopping. Do not combine with the 5 mg tablet or another 5α-reductase inhibitor |
 | Renal impairment, older adults | No adjustment (label) |
 | Hepatic impairment | Use with caution (extensively metabolized by the liver) |
 
@@ -26,8 +26,8 @@ Not indicated in women or children.
 
 ## Contraindications
 - **Women who are or may become pregnant** (risk of abnormal genital development in a male fetus).
-- Children.
 - Hypersensitivity.
+- Not indicated in women or children (FDA and UK SmPC list this as a limitation, not a formal contraindication).
 
 ## Warnings
 - **PSA:** finasteride lowers serum PSA by about 50% within 6 months. Set a new baseline after at least 6 months; **double the PSA value** before comparing with normal ranges for untreated men. Any confirmed rise on treatment needs evaluation; the free-to-total PSA ratio is unaffected.

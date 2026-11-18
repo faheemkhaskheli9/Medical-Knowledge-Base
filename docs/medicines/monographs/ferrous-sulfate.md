@@ -33,6 +33,7 @@ Treatment and prevention of iron deficiency and iron-deficiency anemia. **Always
 - Iron overload (hemochromatosis, hemosiderosis) and anemias not due to iron deficiency (e.g. thalassemia without deficiency) unless iron deficient.
 - Repeated blood transfusions (risk of iron overload).
 - Hypersensitivity.
+- Product-specific UK SmPC contraindications vary: for example, Ironorm drops add active peptic ulcer, Crohn's disease or ulcerative colitis, and hemolytic anemias; Ferrograd (modified-release) adds diverticular disease or intestinal obstruction, and use with parenteral iron. Check the product's SmPC.
 
 ## Warnings
 - **Accidental overdose in children is dangerous and can be fatal** — store out of sight and reach of children (US labeling warning).

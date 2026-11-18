@@ -17,10 +17,10 @@ region: global
 ## Dosing (oral, FDA tablets)
 | Population / indication | Dose | Max |
 |------------|------|-----|
-| Epilepsy, over 12 years | 200 mg twice daily; increase by up to 200 mg/day at weekly intervals, given 3–4 times daily (twice daily for extended-release) | 1000 mg/day (12–15 years); 1200 mg/day (over 15 years); up to 1600 mg/day in adults in rare instances |
-| Epilepsy, 6–12 years | 100 mg twice daily, increased weekly | 1000 mg/day |
-| Epilepsy, under 6 years | 10–20 mg/kg/day in 2–3 divided doses (tablets) | Per label |
-| Trigeminal neuralgia | 100 mg twice daily, increased gradually until pain controlled | 1200 mg/day |
+| Epilepsy, over 12 years | 200 mg twice daily; increase by up to 200 mg/day at weekly intervals, given 3–4 times daily (twice daily for extended-release) | Usual maintenance 800–1200 mg/day. Max 1000 mg/day (12–15 years); 1200 mg/day (over 15 years); up to 1600 mg/day in adults in rare instances |
+| Epilepsy, 6–12 years | 100 mg twice daily, increased by up to 100 mg/day weekly; usual maintenance 400–800 mg/day | 1000 mg/day |
+| Epilepsy, under 6 years | 10–20 mg/kg/day in 2–3 divided doses (tablets), increased weekly | Usually below 35 mg/kg/day; safety above this not established |
+| Trigeminal neuralgia | 100 mg twice daily on day 1, then increase by up to 200 mg/day only as needed for pain relief; usual maintenance 400–800 mg/day | 1200 mg/day |
 | Older adults, hepatic or renal impairment | Start low and titrate slowly; check the label and BNF | — |
 
 - Products are **not interchangeable** without care; UK MHRA classes carbamazepine as a "category 1" antiepileptic (keep the same manufacturer's product). Use the BNF for UK doses.
@@ -30,7 +30,8 @@ region: global
 - History of bone marrow depression.
 - Hypersensitivity to carbamazepine or to tricyclic compounds.
 - Use with, or within 14 days of, an **MAO inhibitor**.
-- Coadministration with **nefazodone** (label). Coadministration with delavirdine and other NNRTIs that are CYP3A4 substrates (label).
+- Coadministration with **nefazodone** (label). Some US generic labels also contraindicate **delavirdine**.
+- UK SmPC also: **AV block** and a history of **hepatic porphyrias**.
 
 ## Warnings / boxed warnings
 - **SJS/TEN and HLA-B\*15:02** (boxed): strongly associated in people of Asian ancestry, with risk in some Asian countries about 10 times higher than in mainly white populations. **Screen for HLA-B\*15:02 before starting** in at-risk ancestry; if positive, do not start unless benefit clearly outweighs risk. HLA-A\*31:01 is associated with DRESS and other hypersensitivity reactions. A negative test does not remove the need for vigilance ([pharmacogenomics](../../pharmacogenomics/gene-drug-pairs.md)).

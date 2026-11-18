@@ -18,18 +18,19 @@ region: global (US and EU renal cut-offs and reduced-dose criteria differ)
 |------------|------|
 | Non-valvular atrial fibrillation (FDA) | CrCl > 30 mL/min: 150 mg twice daily. CrCl 15–30 mL/min: 75 mg twice daily |
 | Non-valvular atrial fibrillation (EU/UK SmPC) | 150 mg twice daily; 110 mg twice daily if aged 80 years or over or taking verapamil; individual assessment (thromboembolic vs bleeding risk) for other groups such as age 75–80 years |
-| DVT/PE treatment and reduction of recurrence (FDA) | CrCl > 30 mL/min: 150 mg twice daily, after 5–10 days of parenteral anticoagulation |
+| DVT/PE treatment (FDA) | CrCl > 30 mL/min: 150 mg twice daily, after 5–10 days of parenteral anticoagulation |
+| Reducing the risk of recurrent DVT/PE (FDA) | CrCl > 30 mL/min: 150 mg twice daily after previous treatment |
 | Prophylaxis after hip replacement (FDA) | CrCl > 30 mL/min: 110 mg 1–4 hours after surgery once hemostasis is achieved, then 220 mg once daily for 28–35 days (if not started on the day of surgery, start with 220 mg once daily) |
 
 - **Renal:** dabigatran is mainly renally cleared, so renal function drives dosing. FDA: no dosing recommendation for DVT/PE treatment or prophylaxis at CrCl ≤ 30 mL/min or on dialysis, and none for AF at CrCl < 15 mL/min or on dialysis. **EU/UK SmPC: contraindicated at CrCl < 30 mL/min.** Use Cockcroft-Gault CrCl ([formulas](../../clinical-reference/formulas.md); [renal and hepatic dosing](../../special-populations/renal-hepatic.md)).
 - **Capsules:** swallow whole with a full glass of water. Do **not** break, chew or empty the capsule — this increases exposure and bleeding risk.
-- Children: weight-based pellets/capsules per label — specialist use.
+- Children: weight-based per label, after at least 5 days of parenteral anticoagulation — specialist use. Pellets, granules and capsules are **not interchangeable mg for mg**; do not combine dosage forms.
 
 ## Contraindications
 - Active pathological bleeding.
 - History of serious hypersensitivity to dabigatran.
 - **Mechanical prosthetic heart valve** (increased thrombosis and bleeding); use with bioprosthetic valves is not recommended.
-- EU/UK SmPC also: severe renal impairment (CrCl < 30 mL/min); lesions or conditions with significant risk of major bleeding; use with certain strong P-gp inhibitors (see SmPC).
+- EU/UK SmPC also: severe renal impairment (CrCl < 30 mL/min; children: eGFR < 50 mL/min/1.73 m²); lesions or conditions with significant risk of major bleeding; **any other anticoagulant at the same time**, except when switching or low-dose heparin to keep a catheter open; hepatic impairment or liver disease expected to affect survival; strong P-gp inhibitors (systemic ketoconazole, ciclosporin, itraconazole, dronedarone, glecaprevir/pibrentasvir); any prosthetic heart valve needing anticoagulation.
 
 ## Warnings / boxed warnings
 - **Premature discontinuation** increases the risk of thrombotic events (boxed warning) — if stopped for a reason other than pathological bleeding or completing a course, consider cover with another anticoagulant.

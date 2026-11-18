@@ -20,7 +20,7 @@ region: global
 | Drug | Hypertension dose |
 |------|-------------------|
 | Indapamide | 2.5 mg, or 1.5 mg modified-release (NICE preferred thiazide-like option) |
-| Chlortalidone | 12.5–25 mg |
+| Chlortalidone | 12.5–25 mg (guidelines; the older US label starts at 25 mg, up to 100 mg) |
 | Hydrochlorothiazide | 12.5–25 mg (max 50 mg; higher doses add adverse effects more than BP lowering) |
 | Bendroflumethiazide | 2.5 mg (NICE: continue if already stable on it, otherwise prefer thiazide-like) |
 
@@ -29,7 +29,7 @@ NICE NG136 and ACC/AHA prefer **thiazide-like** diuretics (indapamide, chlortali
 Efficacy falls in advanced CKD; chlortalidone lowered BP in stage 4 CKD in the CLICK trial (NEJM 2021) — specialist use. Loop diuretics are used for edema ([furosemide](furosemide.md)).
 
 ## Contraindications
-Refractory hypokalemia, hyponatremia or hypercalcemia; symptomatic hyperuricemia/gout (relative); Addison's disease; anuria; severe hepatic impairment (risk of hepatic encephalopathy). Labels list hypersensitivity to sulfonamide-derived drugs, although cross-reactivity with sulfonamide antibiotics is not supported (see [allergy cross-reactivity](../../allergy/cross-reactivity.md)).
+Anuria and hypersensitivity to sulfonamide-derived drugs (US labels, all three). Indapamide (UK SmPC): severe renal impairment (CrCl < 30 mL/min), hepatic encephalopathy or severe hepatic impairment, hypokalemia. Class (BNF/SmPCs): refractory hypokalemia, hyponatremia or hypercalcemia; symptomatic hyperuricemia/gout (relative); Addison's disease; anuria; severe hepatic impairment (risk of hepatic encephalopathy). Labels list hypersensitivity to sulfonamide-derived drugs, although cross-reactivity with sulfonamide antibiotics is not supported (see [allergy cross-reactivity](../../allergy/cross-reactivity.md)).
 
 ## Warnings
 - **Hyponatremia** — especially older women, low body weight, with SSRIs; can be severe.

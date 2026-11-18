@@ -21,6 +21,7 @@ region: global
 | Anxiety (UK, BNF) | 2 mg three times daily, increased if needed to 15–30 mg daily in divided doses; **short-term use only (2–4 weeks)** |
 | Acute alcohol withdrawal (FDA) | 10 mg 3–4 times during the first 24 hours, then 5 mg 3–4 times daily as needed. Follow a local symptom-triggered protocol where available |
 | Muscle spasm (adjunct, FDA) | 2–10 mg 3–4 times daily |
+| Convulsive disorders (adjunct, FDA) | 2–10 mg 2–4 times daily |
 | Older adults or debilitated | Lowest dose (e.g. FDA: 2–2.5 mg once or twice daily; BNF: half the adult dose), increase gradually |
 
 - Status epilepticus and prolonged seizures: rectal, IV or other routes per emergency protocols (buccal or intranasal midazolam are common alternatives) — follow local guidance.

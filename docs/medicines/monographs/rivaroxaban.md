@@ -20,17 +20,19 @@ region: global (US and EU renal cut-offs and some durations differ)
 | DVT/PE treatment | 15 mg twice daily **with food** for the first 21 days, then 20 mg once daily with food |
 | Prophylaxis after hip replacement | 10 mg once daily, with or without food, for 35 days; first dose 6–10 hours after surgery once hemostasis is established |
 | Prophylaxis after knee replacement | 10 mg once daily for 12 days (EU SmPC: 2 weeks) |
-| CAD or PAD (vascular protection) | 2.5 mg twice daily, combined with low-dose [aspirin](aspirin.md) per label |
+| Reducing the risk of recurrent DVT/PE (after at least 6 months of standard treatment) | 10 mg once daily, with or without food |
+| VTE prophylaxis in acutely ill medical patients not at high bleeding risk | 10 mg once daily, in hospital and after discharge, for a total of 31–39 days |
+| CAD or PAD (vascular protection) | 2.5 mg twice daily plus [aspirin](aspirin.md) 75–100 mg once daily, with or without food; no renal adjustment. After lower-limb revascularization, start once hemostasis is established |
 
 - **Food:** the 15 mg and 20 mg doses must be taken with food (absorption is reduced on an empty stomach); 10 mg can be taken with or without food.
 - **Renal:** DVT/PE treatment — avoid if CrCl < 15 mL/min (FDA). The EU SmPC uses CrCl 15–49 mL/min (AF: 15 mg once daily) and does not recommend use below 15 mL/min. Use the Cockcroft-Gault CrCl, not eGFR, for DOAC dosing ([formulas](../../clinical-reference/formulas.md)).
 - Hepatic impairment: avoid in moderate or severe impairment (Child-Pugh B or C) and in liver disease with coagulopathy (FDA); EU SmPC contraindicates hepatic disease with coagulopathy and clinically relevant bleeding risk, including cirrhosis Child-Pugh B and C.
-- Children: weight-based oral suspension per label — specialist use.
+- Children (VTE treatment, birth to < 18 years): weight-based per label, started after at least 5 days of parenteral anticoagulation — specialist use.
 
 ## Contraindications
 - Active pathological bleeding.
 - Severe hypersensitivity to rivaroxaban.
-- EU SmPC also: lesions or conditions with a significant risk of major bleeding; hepatic disease with coagulopathy (above); pregnancy and breastfeeding.
+- UK/EU SmPC also: lesions or conditions with a significant risk of major bleeding (e.g. recent GI ulcer, high-bleeding-risk malignancy, recent brain, spinal or eye surgery, recent intracranial hemorrhage, esophageal varices); **any other anticoagulant at the same time**, except when switching or low-dose heparin to keep a catheter open; hepatic disease with coagulopathy (above); pregnancy and breastfeeding.
 
 ## Warnings / boxed warnings
 - **Premature discontinuation** increases the risk of thrombotic events — if stopped for a reason other than pathological bleeding or completing a course, consider cover with another anticoagulant (boxed warning).

@@ -15,11 +15,12 @@ region: global (US dosing shown; EU/UK SmPC indications and durations differ)
 ## Dosing (adult, FDA)
 | Indication | Dose |
 |------------|------|
-| Acute coronary syndrome or history of MI | 180 mg loading dose, then 90 mg twice daily during the first year; after one year, 60 mg twice daily |
+| Acute coronary syndrome or history of MI | 180 mg loading dose, first 90 mg dose 6–12 hours later, then 90 mg twice daily during the first year; after one year, 60 mg twice daily. After PCI, consider ticagrelor alone (without aspirin) based on thrombotic vs bleeding risk |
 | Coronary artery disease without prior stroke or MI (high risk) | 60 mg twice daily |
 | Acute ischemic stroke or high-risk TIA | 180 mg loading dose, then 90 mg twice daily for up to 30 days |
 
-- **Aspirin dose:** with ticagrelor, use an aspirin maintenance dose of **75–100 mg daily**. Maintenance aspirin above 100 mg daily reduces the effectiveness of ticagrelor.
+- **Aspirin dose:** with ticagrelor, use an aspirin maintenance dose of **75–100 mg daily** (FDA; UK SmPC 75–150 mg). Maintenance aspirin above 100 mg daily reduces the effectiveness of ticagrelor.
+- Missed dose: take the next dose at its usual time. Tablets can be crushed, mixed with water and drunk or given by nasogastric tube. Do not combine with another oral P2Y12 inhibitor.
 - No renal dose adjustment in the label; avoid in severe hepatic impairment (check label).
 - Not affected by CYP2C19 genotype, unlike clopidogrel ([pharmacogenomics](../../pharmacogenomics/gene-drug-pairs.md)).
 
@@ -27,6 +28,7 @@ region: global (US dosing shown; EU/UK SmPC indications and durations differ)
 - History of intracranial hemorrhage.
 - Active pathological bleeding (e.g. peptic ulcer, intracranial hemorrhage).
 - Hypersensitivity (including angioedema) to ticagrelor.
+- UK SmPC also: **severe hepatic impairment**; use with **strong CYP3A4 inhibitors** (e.g. ketoconazole, clarithromycin, ritonavir, atazanavir).
 
 ## Warnings / boxed warnings
 - **Bleeding risk** (boxed warning): can cause significant, sometimes fatal, bleeding. Do not start in patients undergoing urgent CABG.

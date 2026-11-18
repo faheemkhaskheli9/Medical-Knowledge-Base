@@ -19,10 +19,10 @@ region: UK/EU/global (carbimazole is not marketed in the US — methimazole, its
 | Phase | Dose |
 |------------|------|
 | Initial | 20–60 mg daily in 2–3 divided doses, titrated against thyroid function until euthyroid |
-| Maintenance (titration regimen) | Usually 5–15 mg daily |
-| Block and replace | Higher carbimazole dose with levothyroxine — specialist regimen |
+| Maintenance (titration regimen) | Usually 5–15 mg daily, can be a single dose; continue 6–18 months with serial thyroid function tests |
+| Block and replace | Keep 20–60 mg daily and add levothyroxine 50–150 mcg daily; continue 6–18 months — specialist regimen |
 
-- Specialist (endocrinology) initiation is usual. BNF doses differ slightly — check the BNF. Children: weight- and age-based (BNFc).
+- Specialist (endocrinology) initiation is usual. Older adults (65+): no separate dose, but fatal neutrophil dyscrasia may be more likely (UK SmPC). BNF doses differ slightly — check the BNF. Children: weight- and age-based (BNFc).
 - Beta-blockers (e.g. propranolol) are often used for symptom control until euthyroid ([bisoprolol](bisoprolol.md) page covers beta-blocker cautions).
 
 ## Contraindications

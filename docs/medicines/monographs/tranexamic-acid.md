@@ -20,7 +20,7 @@ region: global (US and UK oral regimens and renal tables differ)
 | Heavy menstrual bleeding — FDA (oral) | 1300 mg three times daily (3900 mg/day) for up to 5 days during menstruation; start only once the period has begun |
 | Heavy menstrual bleeding — UK SmPC (oral) | 1 g (2 × 500 mg tablets) three times daily for up to 4 days; do not exceed 4 g daily; start only once bleeding has started |
 | Local fibrinolysis — UK SmPC (oral) | 15–25 mg/kg two to three times daily |
-| Hemophilia, tooth extraction — FDA (IV) | 10 mg/kg actual body weight 3–4 times daily, for 2–8 days |
+| Hemophilia, tooth extraction — FDA (IV) | 10 mg/kg actual body weight as a single dose immediately before extraction (with replacement therapy), then 10 mg/kg 3–4 times daily for 2–8 days; infuse no faster than 1 mL/min (hypotension) |
 
 **Renal impairment (FDA oral, heavy menstrual bleeding — by serum creatinine):**
 
@@ -35,9 +35,9 @@ UK IV renal reduction (Cyklokapron SmPC): serum creatinine 120–249 µmol/L: 10
 ## Contraindications
 - Active thromboembolic disease, or history or intrinsic risk of thrombosis or thromboembolism, including retinal vein or artery occlusion (FDA oral).
 - **Concomitant combined hormonal contraception** (FDA oral) — increased thrombosis risk.
-- **Injection: neuraxial (intrathecal, epidural) administration** — contraindicated.
+- **Injection (FDA): neuraxial (intrathecal, epidural) administration; subarachnoid hemorrhage** (cerebral edema and infarction); active intravascular clotting.
 - Hypersensitivity to tranexamic acid.
-- Check the SmPC for further contraindications (e.g. severe renal impairment, history of convulsions — product-specific).
+- UK SmPC (injection): acute venous or arterial thrombosis; fibrinolytic states after consumption coagulopathy (unless fibrinolysis predominates with acute severe bleeding); **history of convulsions**; intrathecal, epidural, intraventricular or intracerebral use; some products also severe renal impairment.
 
 ## Warnings / boxed warnings
 - **Injection is for intravenous use only (boxed warning):** serious, including fatal, reactions with seizures and cardiac arrhythmias after inadvertent intrathecal injection — usually when mistaken for a local anesthetic. Store separately from local anesthetics and verify the label before neuraxial procedures.
