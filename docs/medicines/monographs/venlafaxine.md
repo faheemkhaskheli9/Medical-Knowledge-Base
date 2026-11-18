@@ -18,17 +18,19 @@ region: global
 | Population / product | Dose | Max |
 |------------|------|-----|
 | Extended-release, MDD (FDA) | Start 37.5–75 mg once daily with food; target 75 mg/day; increase in steps of up to 75 mg/day at intervals of at least 4 days | 225 mg/day |
+| Extended-release, GAD and panic disorder (FDA) | GAD: start 37.5–75 mg once daily, target 75 mg. Panic disorder: 37.5 mg for 7 days, then 75 mg | 225 mg/day |
+| Extended-release, social anxiety disorder (FDA) | 75 mg once daily (no benefit shown from higher doses) | 75 mg/day |
 | Immediate-release (FDA) | 75 mg/day in 2–3 divided doses with food | 225 mg/day in outpatients; up to 375 mg/day in severely depressed inpatients |
 | Renal impairment (FDA XR) | Mild to moderate: reduce total daily dose by 25–50%. Dialysis or severe: reduce by 50% or more | — |
 | Hepatic impairment (FDA XR) | Child-Pugh A or B: reduce total daily dose by 50%. Child-Pugh C or cirrhosis: reduce by 50% or more | — |
 | Children and adolescents | Not approved | — |
 
-UK maximums and titration differ (BNF). Take at about the same time each day; swallow extended-release capsules whole.
+UK SmPC (prolonged-release, depression): start 75 mg once daily; increase at intervals of 2 weeks or more (not less than 4 days if needed); max 375 mg/day. Taper gradually when stopping. Take at about the same time each day; swallow extended-release capsules whole.
 
 ## Contraindications
 - Use with an **MAO inhibitor**, or within 14 days of stopping one; allow at least 7 days after stopping venlafaxine before starting an MAOI. Also linezolid or IV methylene blue.
-- Hypersensitivity.
-- UK: avoid in patients at high risk of serious ventricular arrhythmia or with uncontrolled hypertension (BNF/SmPC).
+- Hypersensitivity to venlafaxine or **desvenlafaxine**.
+- UK SmPC: start at least 14 days after stopping an irreversible MAOI; stop venlafaxine at least 7 days before starting one. High risk of serious ventricular arrhythmia and uncontrolled hypertension are not in the current UK SmPC contraindications checked (Vensir XL); some UK labeling and the BNF list them — check local labeling. Avoid other QT-prolonging drugs.
 
 ## Warnings / boxed warnings
 - **Suicidal thoughts and behaviors** (boxed): increased risk in children, adolescents and young adults; monitor all patients, especially early in treatment and after dose changes ([crisis support](../../mental-health/crisis-support.md)).

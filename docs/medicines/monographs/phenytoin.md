@@ -24,7 +24,7 @@ region: global
 
 - Use oral phenytoin whenever possible. Follow local status epilepticus protocols for IV loading (many use fosphenytoin).
 - Change the dose in small steps; steady state takes 7–10 days, so do not adjust more often than that.
-- Different products (capsules, chewable tablets, suspension, phenytoin sodium vs phenytoin base) are **not bioequivalent** — the free acid (base) has about 8% more phenytoin than the same weight of the sodium salt. UK MHRA classes phenytoin as "category 1" (keep the same product). Children: weight-based (label, BNFc).
+- Different products (capsules, chewable tablets, suspension, phenytoin sodium vs phenytoin base) are **not bioequivalent** — the free acid (base) has about 8% more phenytoin than the same weight of the sodium salt. UK MHRA classes phenytoin as "category 1" (keep the same product). Children (oral, FDA): start 5 mg/kg/day in 2–3 divided doses, max 300 mg/day; maintenance usually 4–8 mg/kg/day; IV loading 15–20 mg/kg at no more than 1–3 mg/kg/min or 50 mg/min, whichever is slower (label, BNFc).
 - **Therapeutic range:** total serum concentration 10–20 mcg/mL; unbound (free) 1–2 mcg/mL. With low albumin, renal failure or pregnancy the total level underestimates free drug — measure a free level where available.
 
 ## Contraindications
