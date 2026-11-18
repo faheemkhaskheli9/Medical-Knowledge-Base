@@ -27,7 +27,8 @@ region: global
 - Combination products (e.g. with metformin) follow the metformin renal limits as well.
 
 ## Contraindications
-- History of serious hypersensitivity to sitagliptin (e.g. anaphylaxis, angioedema, exfoliative skin conditions such as Stevens-Johnson syndrome).
+- History of serious hypersensitivity to sitagliptin, such as anaphylaxis or angioedema (FDA). Exfoliative skin reactions, including Stevens-Johnson syndrome, are a warning; stop if suspected.
+- UK SmPC: hypersensitivity to sitagliptin or excipients.
 
 ## Warnings / boxed warnings
 - **Pancreatitis:** acute pancreatitis, including fatal hemorrhagic or necrotizing cases, reported. Stop promptly if suspected; not studied in patients with prior pancreatitis.

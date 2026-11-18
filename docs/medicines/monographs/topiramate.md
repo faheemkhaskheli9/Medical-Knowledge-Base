@@ -16,8 +16,8 @@ region: global (UK/EU Pregnancy Prevention Programme requirements are region-spe
 ## Dosing (FDA)
 | Indication | Dose |
 |------------|------|
-| Epilepsy monotherapy, adults and children ≥ 10 years | Start 25 mg twice daily (week 1) and titrate weekly per label schedule to the recommended **400 mg/day in two divided doses** |
-| Migraine prevention, ≥ 12 years | Start 25 mg in the evening (week 1), increase weekly per label schedule to **100 mg/day in two divided doses** |
+| Epilepsy monotherapy, adults and children ≥ 10 years | Start 25 mg twice daily (week 1) and increase each dose by 25 mg weekly to week 4 (100 mg twice daily), then 150 mg and 200 mg twice daily in weeks 5–6: recommended **400 mg/day in two divided doses** |
+| Migraine prevention, ≥ 12 years | Start 25 mg in the evening (week 1), week 2: 25 mg twice daily; week 3: 25 mg morning, 50 mg evening; week 4: 50 mg twice daily = **100 mg/day in two divided doses**. Longer intervals between steps are allowed |
 | Renal impairment (CrCl < 70 mL/min/1.73 m²) | **One-half** of the usual adult dose |
 | Hemodialysis | Rapidly removed — a supplemental dose may be needed; adjust for dialysis duration and system clearance |
 
@@ -26,7 +26,7 @@ region: global (UK/EU Pregnancy Prevention Programme requirements are region-spe
 
 ## Contraindications
 - **UK/EU:** pregnancy, and women of childbearing potential not meeting the **Pregnancy Prevention Programme** conditions; for **migraine prevention, contraindicated in pregnancy**; for epilepsy, not in pregnancy unless no other suitable treatment.
-- Hypersensitivity to topiramate.
+- Hypersensitivity to topiramate, including anaphylaxis and angioedema (the only FDA contraindication).
 
 ## Warnings / boxed warnings
 - **Fetal toxicity:** increased risk of major congenital malformations, including oral clefts (cleft lip and/or palate), and of small-for-gestational-age infants (FDA). MHRA review also found possible increased risk of intellectual disability, autism spectrum disorder and ADHD after in-utero exposure. UK/EU Pregnancy Prevention Programme: highly effective contraception, pregnancy test before starting, annual risk acknowledgement form. See [valproate](valproate.md) for the analogous programme.

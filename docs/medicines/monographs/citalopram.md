@@ -17,16 +17,18 @@ region: global (US and UK age cut-offs for the lower maximum differ)
 ## Dosing (adult)
 | Population | Dose | Max |
 |------------|------|-----|
-| Depression, adult (FDA and UK) | 20 mg once daily | **40 mg once daily** — higher doses not recommended (QT prolongation) |
+| Depression, adult (FDA and UK) | 20 mg once daily; increase after at least 1 week if needed (FDA) | **40 mg once daily** — higher doses not recommended (QT prolongation) |
 | Older adults | UK: 10–20 mg once daily | FDA: 20 mg/day if > 60 years; UK: 20 mg/day if > 65 years |
 | Hepatic impairment | — | 20 mg/day (FDA) |
 | CYP2C19 poor metabolizers, or taking cimetidine or another CYP2C19 inhibitor | — | 20 mg/day (FDA) |
 
+- Panic disorder (UK SmPC): 10 mg daily for the first week, then 20 mg; increase in 10 mg steps to max 40 mg.
 - Taper gradually when stopping.
 - Not approved for children (FDA).
 
 ## Contraindications
-- MAOIs (including linezolid or IV methylene blue) — or within 14 days of stopping an MAOI.
+- Hypersensitivity, including angioedema and anaphylaxis.
+- MAOIs (including linezolid or IV methylene blue) — or within 14 days of stopping an MAOI; wait 14 days after stopping citalopram before starting an MAOI (FDA). UK SmPC: wait 7 days before an MAOI; selegiline above 10 mg/day; linezolid only with close blood pressure monitoring.
 - Pimozide.
 - UK SmPC also: known QT prolongation or congenital long QT syndrome; use with other medicines known to prolong the QT interval.
 

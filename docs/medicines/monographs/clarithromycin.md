@@ -24,12 +24,12 @@ region: global (UK doses shown; local antimicrobial guidance applies)
 
 ## Contraindications
 - Hypersensitivity to macrolides.
-- **History of QT prolongation or ventricular arrhythmia, including torsade de pointes.**
-- **Colchicine in patients with renal or hepatic impairment** ([colchicine](colchicine.md)).
-- **Simvastatin or lovastatin** (rhabdomyolysis) — stop the statin during the course.
-- Cisapride, pimozide, ergotamine or dihydroergotamine.
+- UK SmPC: **history of QT prolongation (congenital or acquired) or ventricular arrhythmia, including torsade de pointes**; uncorrected hypokalaemia or hypomagnesaemia; severe hepatic failure with renal impairment. (FDA lists QT prolongation as a warning, not a contraindication.)
+- **Colchicine:** FDA contraindicates it with renal or hepatic impairment; UK SmPC contraindicates colchicine in all patients ([colchicine](colchicine.md)).
+- **Simvastatin or lovastatin** (rhabdomyolysis) — stop the statin during the course. **Lomitapide** (raised transaminases).
+- Cisapride, pimozide, ergotamine or dihydroergotamine. FDA also: **lurasidone**. UK SmPC also: domperidone, astemizole, terfenadine, **ticagrelor**, ranolazine, ivabradine, oral midazolam.
 - History of cholestatic jaundice/hepatic dysfunction with prior clarithromycin use (FDA).
-- Check the SmPC for further contraindicated combinations (e.g. ticagrelor, some antipsychotics and HIV medicines, depending on product and region).
+- Once-daily 500 mg modified-release tablets (UK): contraindicated at CrCl < 30 mL/min, because the dose cannot be reduced.
 
 ## Warnings / boxed warnings
 - **Patients with heart disease:** FDA 2018 communication — 10-year follow-up of a coronary heart disease trial showed a possible increase in later heart problems and death; consider other antibiotics in patients with heart disease.
