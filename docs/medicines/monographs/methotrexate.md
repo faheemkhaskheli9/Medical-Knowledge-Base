@@ -25,7 +25,9 @@ region: global
 UK safety advice: use a single tablet strength (usually 2.5 mg) to avoid confusion with 10 mg tablets; record the day of the week on the prescription.
 
 ## Contraindications
-Pregnancy (non-oncology use) and breastfeeding; significant hepatic impairment, alcohol dependence or chronic liver disease; pre-existing blood dyscrasias (bone marrow hypoplasia, leucopenia, thrombocytopenia, significant anemia); immunodeficiency; active serious infection. Renal impairment raises levels (renally excreted) — reduce dose or avoid according to the label/BNF.
+- **US labels** (current, e.g. Jylamvo): pregnancy for non-neoplastic disease; history of severe hypersensitivity (including anaphylaxis) to methotrexate.
+- **UK SmPC** adds: breastfeeding; hepatic impairment (bilirubin > 5 mg/dL [85.5 micromol/L]); alcohol abuse; **severe renal impairment (CrCl < 30 mL/min)**; pre-existing blood disorders (bone marrow hypoplasia, leucopenia, thrombocytopenia, significant anemia); immunodeficiency; severe acute or chronic infection (e.g. tuberculosis, HIV); stomatitis, oral ulcers or active GI ulcer; concurrent live vaccines.
+- Milder renal impairment raises levels (renally excreted) — reduce the dose per the label/BNF.
 
 ## Warnings (FDA boxed warning, summarized)
 - Serious, sometimes fatal toxicity: **myelosuppression**, **hepatotoxicity** (fibrosis, cirrhosis), **pneumonitis**, GI toxicity (mucositis, diarrhea), serious infections, severe skin reactions.

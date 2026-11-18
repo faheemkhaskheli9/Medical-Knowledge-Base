@@ -27,6 +27,8 @@ region: global
 ## Contraindications
 Children and adolescents (under 16 in the UK) — **Reye's syndrome**, except specialist indications such as Kawasaki disease; active peptic ulceration; hemophilia and other bleeding disorders; previous hypersensitivity to aspirin or other NSAIDs (asthma, angioedema, urticaria). See [pediatrics](../../special-populations/pediatrics.md).
 
+UK SmPC (aspirin 75 mg tablets) also lists: history of GI bleeding or perforation from NSAIDs, or recurrent peptic ulcer/bleeding; thrombocytopenia; severe hepatic, renal or cardiac failure; doses > 100 mg/day in the third trimester of pregnancy; methotrexate at > 15 mg/week.
+
 ## Warnings
 - GI bleeding — higher with age > 65, previous ulcer, anticoagulants, corticosteroids, SSRIs. Consider a PPI for gastroprotection (see [omeprazole](omeprazole.md)).
 - Aspirin-exacerbated respiratory disease (asthma with nasal polyps). See [allergy cross-reactivity](../../allergy/cross-reactivity.md).

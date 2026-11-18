@@ -22,7 +22,7 @@ region: global
 | Heart failure (reduced or preserved EF) | 10 mg | 10 mg |
 | Chronic kidney disease | 10 mg | 10 mg |
 
-- Glucose-lowering effect falls as eGFR declines, but heart and kidney benefits persist. Label thresholds for **starting** in CKD: empagliflozin eGFR ≥ 20, dapagliflozin eGFR ≥ 25 mL/min/1.73 m²; may usually continue below these until dialysis. Check the current label for glycemic-control thresholds.
+- Glucose-lowering effect falls as eGFR declines, but heart and kidney benefits persist. US labels: dapagliflozin — not recommended to **start** at eGFR < 25 mL/min/1.73 m² (non-glycemic indications); empagliflozin — trials did not enroll eGFR < 20. Once started, usually continued below these until dialysis. **Glycemic control only:** not recommended at eGFR < 30 (empagliflozin) or < 45 (dapagliflozin).
 - Not licensed for type 1 diabetes in most regions (DKA risk).
 
 ## Contraindications

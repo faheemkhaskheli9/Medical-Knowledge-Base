@@ -21,9 +21,9 @@ Escalation depends on interacting medicines (FDA label, epilepsy and bipolar):
 
 | Co-medication | Weeks 1–2 | Weeks 3–4 | Then |
 |---------------|-----------|-----------|------|
-| **Valproate** (raises lamotrigine levels) | 25 mg every other day | 25 mg daily | Increase by 25–50 mg/day every 1–2 weeks; usual maintenance 100–200 mg/day with valproate alone |
+| **Valproate** (raises lamotrigine levels) | 25 mg every other day | 25 mg daily | Increase by 25–50 mg/day every 1–2 weeks; usual maintenance 100–200 mg/day with valproate alone (100–400 mg/day with valproate plus inducers); bipolar target 100 mg/day |
 | Neither valproate nor enzyme inducers | 25 mg daily | 50 mg daily | Increase by 50 mg/day every 1–2 weeks; epilepsy maintenance 225–375 mg/day; bipolar target 200 mg/day |
-| **Enzyme inducers** (carbamazepine, phenytoin, phenobarbital, primidone) without valproate | 50 mg daily | 100 mg/day in 2 divided doses | Increase by 100 mg/day every 1–2 weeks; epilepsy maintenance 300–500 mg/day |
+| **Enzyme inducers** (carbamazepine, phenytoin, phenobarbital, primidone) without valproate | 50 mg daily | 100 mg/day in 2 divided doses | Increase by 100 mg/day every 1–2 weeks; epilepsy maintenance 300–500 mg/day in 2 divided doses; bipolar: 200 mg week 5, 300 mg week 6, up to 400 mg/day from week 7 |
 
 - Restarting after a gap of more than 5 half-lives: re-titrate from the starting dose (rash risk).
 - Do not stop abruptly in epilepsy — taper over at least 2 weeks unless a serious rash requires immediate withdrawal.
@@ -33,7 +33,7 @@ Escalation depends on interacting medicines (FDA label, epilepsy and bipolar):
 Hypersensitivity to lamotrigine (including previous lamotrigine rash).
 
 ## Warnings
-- **Serious rash** (Stevens–Johnson syndrome, TEN), FDA boxed warning — mostly within 2–8 weeks of starting. Risk is higher with valproate, exceeding the starting dose or escalation rate, and in children. Stop at the first sign of rash unless clearly unrelated.
+- **Serious rash** (Stevens–Johnson syndrome, TEN), FDA boxed warning — mostly within 2–8 weeks of starting. Risk is higher with valproate, exceeding the starting dose or escalation rate, the **HLA-B\*1502** allele (added to the boxed warning, FDA 2025), and in children. Stop at the first sign of rash unless clearly unrelated.
 - DRESS / multi-organ hypersensitivity; **hemophagocytic lymphohistiocytosis** (FDA 2018) — fever, rash, lymphadenopathy, cytopenias.
 - **Cardiac conduction:** class IB antiarrhythmic activity; may be proarrhythmic in structural heart disease or arrhythmias (FDA 2021) — assess before use in these patients.
 - Aseptic meningitis; suicidal thoughts (all antiseizure medicines); blood dyscrasias.
