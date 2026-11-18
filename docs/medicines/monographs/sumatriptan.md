@@ -18,8 +18,8 @@ region: global (US and UK maximum daily oral doses differ)
 | Route | Dose |
 |-------|------|
 | Oral | US: 25, 50 or 100 mg; may repeat after at least 2 hours; max 200 mg in 24 hours (FDA). UK: 50 mg (up to 100 mg); may repeat after at least 2 hours if migraine recurs; max 300 mg in 24 hours (BNF) |
-| Subcutaneous | 6 mg; may repeat once after at least 1 hour; max 12 mg in 24 hours |
-| Nasal spray | US: 5, 10 or 20 mg; may repeat after 2 hours; max 40 mg in 24 hours (FDA). UK: 10–20 mg (BNF) |
+| Subcutaneous | Migraine: 6 mg (1–5 mg if side effects limit the dose); cluster headache: 6 mg. Separate doses by at least 1 hour; max 12 mg in 24 hours (FDA) |
+| Nasal spray | US generic (Imitrex-type): 5, 10 or 20 mg; may repeat after 2 hours; max 40 mg in 24 hours (FDA). Tosymra: 10 mg, repeat after at least 1 hour, max 30 mg in 24 hours — products are not interchangeable. UK: 10–20 mg (BNF) |
 | Mild to moderate hepatic impairment | Oral: max single dose 50 mg (FDA). Severe impairment: contraindicated |
 
 - Take at the start of the headache phase. If the **first dose does not help**, do not take a second dose for the same attack (UK SmPC).

@@ -18,10 +18,10 @@ region: global (INN cefalexin; US name cephalexin)
 ## Dosing (oral)
 | Population | Dose |
 |------------|------|
-| Adults (US label) | 250 mg every 6 hours, or 500 mg every 12 hours for some indications (e.g. uncomplicated cystitis, skin infections, streptococcal pharyngitis). Usual range 1–4 g per day in divided doses |
+| Adults (US label) | 250 mg every 6 hours, or 500 mg every 12 hours, for 7–14 days. More severe infections: up to 4 g per day in 2–4 divided doses |
 | Adults (UK, BNF) | 250 mg every 6 hours or 500 mg every 8–12 hours; increased in severe infection per BNF |
 | Lower UTI in pregnancy (NICE NG109) | 500 mg twice daily for 7 days |
-| Children | Weight-based (FDA: 25–50 mg/kg/day in divided doses; otitis media 75–100 mg/kg/day in 4 divided doses) — use the label or BNFc |
+| Children | Weight-based (FDA, over 1 year: 25–50 mg/kg/day in divided doses; severe infections 50–100 mg/kg/day; otitis media 75–100 mg/kg/day; not above the adult dose) — use the label or BNFc |
 | Renal impairment (FDA) | CrCl 30–59 mL/min: no adjustment, max 1 g per day. CrCl 15–29 mL/min: 250 mg every 8–12 hours. CrCl 5–14 mL/min (not on dialysis): 250 mg every 24 hours. CrCl 1–4 mL/min: 250 mg every 48–60 hours |
 
 Insufficient label data for hemodialysis — check local renal guidance. Treat beta-hemolytic streptococcal infections for at least 10 days (FDA).
@@ -30,7 +30,7 @@ Insufficient label data for hemodialysis — check local renal guidance. Treat b
 Skin and soft tissue infections (staphylococcal and streptococcal), lower UTI (including in pregnancy), streptococcal pharyngitis, otitis media, bone infections. **Not active** against MRSA, enterococci, or *Haemophilus influenzae* reliably; poor CNS penetration.
 
 ## Contraindications
-Hypersensitivity to cefalexin or other cephalosporins. History of **severe or immediate** reaction (anaphylaxis) to a penicillin — avoid unless allergy specialist advice; see below.
+Hypersensitivity to cefalexin or other cephalosporins (FDA). The FDA label does not list penicillin allergy as a contraindication, but avoid after a **severe or immediate** reaction (anaphylaxis) to a penicillin unless an allergy specialist advises otherwise (BNF caution); see below.
 
 ## Warnings
 - **Penicillin allergy:** overall cross-reactivity is low and driven by similar **R1 side chains**. Cefalexin shares a side chain with **ampicillin/amoxicillin**, so avoid it in immediate-type amoxicillin allergy ([cross-reactivity](../../allergy/cross-reactivity.md)).

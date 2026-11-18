@@ -18,10 +18,12 @@ region: global
 ## Dosing (oral, adult)
 | Indication | Dose (FDA) |
 |------------|------------|
-| Active duodenal ulcer | 40 mg once daily for up to 8 weeks |
+| Active duodenal ulcer | 40 mg once daily, or 20 mg twice daily, for up to 8 weeks |
 | Active gastric ulcer | 40 mg once daily for up to 8 weeks |
 | Symptomatic non-erosive GERD | 20 mg twice daily for up to 6 weeks |
 | Erosive esophagitis | 20 mg or 40 mg twice daily for up to 12 weeks |
+| Reduction of duodenal ulcer recurrence | 20 mg once daily (up to 1 year) |
+| Pathological hypersecretory conditions | Start 20 mg every 6 hours, adjust to response; max 160 mg every 6 hours |
 | OTC heartburn (Drug Facts) | 10–20 mg, up to twice in 24 hours; not for more than 14 days without medical advice |
 
 **Renal impairment (FDA, maximum doses):**
@@ -30,6 +32,8 @@ region: global
 |------|-----------------------------|------------------|
 | 30–60 mL/min | 20 mg once daily or 40 mg every other day | 20 mg once daily |
 | < 30 mL/min | 20 mg every other day | 20 mg every other day (alternative 10 mg once daily) |
+
+Erosive esophagitis on 40 mg twice daily: max 40 mg once daily (CrCl 30–60) or 20 mg once daily (CrCl < 30). Ulcer and esophagitis regimens at CrCl < 30 also allow 10 mg once daily (needs another formulation). Avoid in pathological hypersecretory conditions with CrCl < 30 mL/min (FDA).
 
 UK doses differ in places — check the BNF. Children: weight-based — use the label or BNFc.
 

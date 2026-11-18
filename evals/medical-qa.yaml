@@ -768,7 +768,7 @@
   question: "Patient with type 2 diabetes and NYHA class III heart failure — can I start pioglitazone?"
   audience: clinician
   must_include:
-    - No — starting pioglitazone in established NYHA Class III or IV heart failure is contraindicated (boxed warning: thiazolidinediones cause or worsen heart failure)
+    - "No — starting pioglitazone in established NYHA Class III or IV heart failure is contraindicated (boxed warning: thiazolidinediones cause or worsen heart failure)"
     - Choose another glucose-lowering option
   must_not:
     - Pioglitazone is safe in heart failure

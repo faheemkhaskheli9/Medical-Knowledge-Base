@@ -18,7 +18,7 @@ region: global (gliclazide is not marketed in the US; glipizide and glimepiride 
 | Drug | Dose |
 |------|------|
 | Gliclazide immediate-release (UK) | 40–80 mg daily with breakfast, adjusted to response; up to 160 mg as a single dose. Max 320 mg daily — give doses above 160 mg in 2 divided doses (BNF) |
-| Gliclazide modified-release (UK) | 30 mg once daily with breakfast, increased every 4 weeks if needed; max 120 mg daily. MR 30 mg is not interchangeable mg-for-mg with IR 80 mg |
+| Gliclazide modified-release (UK) | 30 mg once daily with breakfast, increased in steps (60, 90, 120 mg) at least 1 month apart (after 2 weeks if glucose has not fallen); max 120 mg daily. SmPC: one IR 80 mg tablet is comparable to one MR 30 mg tablet; switch with careful glucose monitoring |
 | Glimepiride (US/UK) | 1–2 mg once daily with breakfast; increase gradually; max 8 mg daily (FDA) |
 | Glipizide (US) | IR: 5 mg once daily before breakfast (2.5 mg in older adults or liver disease); max 40 mg daily, divide doses above 15 mg. ER: max 20 mg daily (FDA) |
 
@@ -31,7 +31,8 @@ Type 2 diabetes when metformin is contraindicated or not tolerated, or as add-on
 ## Contraindications
 - Type 1 diabetes, diabetic ketoacidosis.
 - Severe hepatic or renal impairment (gliclazide SmPC).
-- Hypersensitivity to sulfonylureas or sulfonamides. Pregnancy and breastfeeding (gliclazide SmPC; insulin is preferred).
+- Hypersensitivity to gliclazide, other sulfonylureas or sulfonamides; diabetic pre-coma or coma.
+- Breastfeeding (gliclazide SmPC). Pregnancy is not a listed contraindication, but switch to insulin before conception or once pregnancy is known (SmPC 4.6).
 - Co-administration with miconazole (gliclazide SmPC).
 
 ## Warnings
@@ -56,7 +57,7 @@ Type 2 diabetes when metformin is contraindicated or not tolerated, or as add-on
 - Serious: severe prolonged hypoglycemia, hemolytic anemia (G6PD), cholestatic jaundice and skin reactions (rare).
 
 ## Pregnancy / lactation
-Usually switched to insulin before conception or as soon as pregnancy is confirmed (NICE). Gliclazide SmPC: contraindicated in pregnancy and breastfeeding; risk of neonatal hypoglycemia.
+Usually switched to insulin before conception or as soon as pregnancy is confirmed (NICE). Gliclazide SmPC: contraindicated in breastfeeding; in pregnancy switch to insulin (risk of neonatal hypoglycemia).
 
 ## Monitoring
 HbA1c every 3–6 months; capillary glucose when risk of hypoglycemia or for drivers; renal and liver function.
