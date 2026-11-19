@@ -35,6 +35,15 @@ class EvalCaseValidationTests(unittest.TestCase):
             with self.subTest(key=key, value=value):
                 self.assertTrue(self.check({**self.valid, key: value}))
 
+    def test_audience_restricted_to_supported_roles(self):
+        for audience in ("patient", "clinician"):
+            with self.subTest(audience=audience):
+                self.assertEqual(self.check({**self.valid, "audience": audience}), [])
+        for audience in ("visitor", "Patient", "patient ", "clinicians"):
+            with self.subTest(audience=audience):
+                self.assertIn("must be 'patient' or 'clinician'",
+                              " ".join(self.check({**self.valid, "audience": audience})))
+
     def test_optional_empty_must_not(self):
         self.assertEqual(self.check({**self.valid, "must_not": []}), [])
 

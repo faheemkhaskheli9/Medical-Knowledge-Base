@@ -33,6 +33,9 @@ def validate_case(case, where, seen, root=ROOT):
             errors.append(f"{where}: '{key}' must be {'a non-empty' if key == 'must_include' else 'a'} list")
         elif any(not isinstance(item, str) or not item.strip() for item in value):
             errors.append(f"{where}: '{key}' entries must be non-empty strings")
+    audience = case.get("audience")
+    if isinstance(audience, str) and audience.strip() and audience not in ("patient", "clinician"):
+        errors.append(f"{where}: 'audience' must be 'patient' or 'clinician'")
     cid = case.get("id")
     if isinstance(cid, str) and cid.strip():
         if cid in seen:
