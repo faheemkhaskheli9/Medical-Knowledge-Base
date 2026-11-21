@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements-docs.txt
+      - name: Run eval validator regression tests
+        run: python -m unittest discover -s evals -p 'test_*.py'
       - name: Validate evals
         run: python evals/check_evals.py
       - run: mkdocs build --strict
