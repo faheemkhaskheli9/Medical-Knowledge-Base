@@ -3,7 +3,9 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from check_evals import validate_case
+import yaml
+
+from check_evals import UniqueKeySafeLoader, validate_case
 
 
 class EvalCaseValidationTests(unittest.TestCase):
@@ -69,6 +71,27 @@ class EvalCaseValidationTests(unittest.TestCase):
         except (OSError, NotImplementedError):
             self.skipTest("symlinks unsupported")
         self.assertIn("inside repository", " ".join(self.check({**self.valid, "source": "link.md"})))
+
+
+class DuplicateYamlKeyTests(unittest.TestCase):
+    def test_valid_mapping(self):
+        self.assertEqual(yaml.load("a: 1\nb: 2\n", Loader=UniqueKeySafeLoader), {"a": 1, "b": 2})
+
+    def test_duplicate_top_level_key(self):
+        with self.assertRaisesRegex(yaml.YAMLError, "duplicate YAML key"):
+            yaml.load("a: 1\na: 2\n", Loader=UniqueKeySafeLoader)
+
+    def test_duplicate_nested_case_key(self):
+        with self.assertRaisesRegex(yaml.YAMLError, "duplicate YAML key"):
+            yaml.load("- id: first\n  source: a.md\n  source: b.md\n", Loader=UniqueKeySafeLoader)
+
+    def test_same_key_in_distinct_cases(self):
+        self.assertEqual(yaml.load("- id: one\n- id: two\n", Loader=UniqueKeySafeLoader),
+                         [{"id": "one"}, {"id": "two"}])
+
+    def test_unhashable_mapping_key(self):
+        with self.assertRaises(yaml.YAMLError):
+            yaml.load("? [a, b]\n: value\n", Loader=UniqueKeySafeLoader)
 
 
 if __name__ == "__main__":

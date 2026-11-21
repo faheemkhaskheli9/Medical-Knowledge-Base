@@ -15,6 +15,33 @@ ROOT = Path(__file__).resolve().parent.parent
 EVALS = ROOT / "evals"
 REQUIRED = ("id", "question", "audience", "must_include", "source")
 
+class UniqueKeySafeLoader(yaml.SafeLoader):
+    """Reject duplicate YAML mapping keys rather than silently accepting the last value."""
+
+
+def _construct_unique_mapping(loader, node):
+    loader.flatten_mapping(node)
+    seen = set()
+    for key_node, _ in node.value:
+        key = loader.construct_object(key_node, deep=True)
+        try:
+            if key in seen:
+                raise yaml.constructor.ConstructorError(
+                    None, None, f"duplicate YAML key {key!r}", key_node.start_mark
+                )
+            seen.add(key)
+        except TypeError as exc:
+            raise yaml.constructor.ConstructorError(
+                None, None, "unhashable YAML mapping key", key_node.start_mark
+            ) from exc
+    return loader.construct_mapping(node)
+
+
+UniqueKeySafeLoader.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, _construct_unique_mapping
+)
+
+
 
 def validate_case(case, where, seen, root=ROOT):
     """Return errors for one case; do not throw on malformed YAML values."""
@@ -68,7 +95,7 @@ def main() -> int:
     for path in files:
         rel = path.relative_to(ROOT)
         try:
-            data = yaml.safe_load(path.read_text(encoding="utf-8"))
+            data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeySafeLoader)
         except (yaml.YAMLError, UnicodeError, OSError) as exc:
             errors.append(f"{rel}: cannot read/parse YAML: {exc}")
             continue
